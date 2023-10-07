@@ -1,0 +1,123 @@
+version: '3.4'
+
+services:
+  rabbitmq:
+    ports:
+      - "5672:5672"
+
+  redis:
+    ports:
+      - "5379:6379"
+
+  zipkin:
+    ports:
+      - "5411:9411"
+
+  sqlserver:
+    volumes:
+      - sudoku-sqlserver:/var/opt/mssql
+    environment:
+      - SA_PASSWORD=L114514114514
+      - ACCEPT_EULA=Y
+    ports:
+      - 1433:1433
+
+  sudokupredictor-api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+    ports:
+      - "5103:80"
+      - "50001:50001"
+
+  sudokupredictor-api-dapr:
+    command: ["./daprd",
+      "-app-id", "sudokupredictor-api",
+      "-app-port", "80",
+      "-components-path", "/components",
+      "-config", "/configuration/sudoku-config.yaml"
+      ]
+    volumes:
+      - "./dapr/components/:/components"
+      - "./dapr/configuration/:/configuration"
+
+  sudokusubmitter-api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+    ports:
+      - "5101:80"
+      - "50002:50001"
+
+  sudokusubmitter-api-dapr:
+    command: ["./daprd",
+      "-app-id", "sudokusubmitter-api",
+      "-app-port", "80",
+      "-components-path", "/components",
+      "-config", "/configuration/sudoku-config.yaml"
+      ]
+    volumes:
+      - "./dapr/components/:/components"
+      - "./dapr/configuration/:/configuration"
+
+  sudokufactory-api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+    ports:
+      - "5102:80"
+      - "50003:50001"
+
+  sudokufactory-api-dapr:
+    command: ["./daprd",
+      "-app-id", "sudokufactory-api",
+      "-app-port", "80",
+      "-components-path", "/components",
+      "-config", "/configuration/sudoku-config.yaml"
+      ]
+    volumes:
+      - "./dapr/components/:/components"
+      - "./dapr/configuration/:/configuration"
+
+  sudokurecord-api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+    ports:
+      - "5107:80"
+      - "50007:50001"
+
+  sudokurecord-api-dapr:
+    command: ["./daprd",
+      "-app-id", "sudokurecord-api",
+      "-app-port", "80",
+      "-components-path", "/components",
+      "-config", "/configuration/sudoku-config.yaml"
+      ]
+    volumes:
+      - "./dapr/components/:/components"
+      - "./dapr/configuration/:/configuration"
+
+  sudoku-host:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+    ports:
+      - "5105:80"
+      - "50005:50001"
+
+  sudoku-host-dapr:
+    command: ["./daprd",
+      "-app-id", "sudokurecord-api",
+      "-app-port", "80",
+      "-components-path", "/components",
+      "-config", "/configuration/sudoku-config.yaml"
+      ]
+    volumes:
+      - "./dapr/components/:/components"
+      - "./dapr/configuration/:/configuration"
+
+volumes:
+  sudoku-sqlserver:
+    external: false    
+

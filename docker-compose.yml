@@ -1,0 +1,91 @@
+version: '3.4'
+
+services:
+  rabbitmq:
+    image: rabbitmq:latest
+  
+  redis:
+    image: redis:latest
+  
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+
+  zipkin:
+    image: openzipkin/zipkin-slim:latest
+
+  sudokupredictor-api:
+    image: ${DOCKER_REGISTRY-}sudokupredictorapi
+    build:
+      context: .
+      dockerfile: src/microservices/SudokuPredictor/SudokuPredictor.API/Dockerfile
+    depends_on:
+      - redis
+
+  sudokupredictor-api-dapr:
+    image: "daprio/daprd:latest"
+    network_mode: "service:sudokupredictor-api"
+    depends_on:
+      - redis
+      - sudokupredictor-api
+
+  sudokusubmitter-api:
+    image: ${DOCKER_REGISTRY-}sudokusubmitterapi
+    build:
+      context: .
+      dockerfile: src/microservices/SudokuSubmitter/SudokuSubmitter.API/Dockerfile
+    depends_on:
+      - sqlserver
+
+  sudokusubmitter-api-dapr:
+    image: "daprio/daprd:latest"
+    network_mode: "service:sudokusubmitter-api"
+    depends_on:
+      - sudokusubmitter-api
+
+  sudokufactory-api:
+    image: ${DOCKER_REGISTRY-}sudokufactoryapi
+    build:
+      context: .
+      dockerfile: src/microservices/SudokuFactory/SudokuFactory.API/Dockerfile
+    depends_on:
+      - redis
+
+  sudokufactory-api-dapr:
+    image: "daprio/daprd:latest"
+    network_mode: "service:sudokufactory-api"
+    depends_on:
+      - sudokufactory-api
+      - redis
+
+  sudokurecord-api:
+    image: ${DOCKER_REGISTRY-}sudokurecordapi
+    build:
+      context: .
+      dockerfile: src/microservices/SudokuRecord/SudokuRecord.API/Dockerfile
+    depends_on:
+      - redis
+      - sqlserver
+
+  sudokurecord-api-dapr:
+    image: "daprio/daprd:latest"
+    network_mode: "service:sudokurecord-api"
+    depends_on:
+      - sudokurecord-api
+      - redis
+
+  sudoku-host:
+    image: ${DOCKER_REGISTRY-}sudokuhost
+    build:
+      context: .
+      dockerfile: src/applications/Sudoku.Host/Dockerfile
+    depends_on:
+      - sudokurecord-api
+      - sudokufactory-api
+      - sudokusubmitter-api
+      - sudokupredictor-api
+  
+  sudoku-host-dapr:
+    image: "daprio/daprd:latest"
+    network_mode: "service:sudoku-host"
+    depends_on:
+      - sudoku-host

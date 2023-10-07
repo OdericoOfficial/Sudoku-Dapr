@@ -1,0 +1,27 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "sudoku-host",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "sudokupredictor-api": "StartDebugging",
+        "sudokusubmitter-api": "StartDebugging",
+        "sudokufactory-api": "StartDebugging",
+        "sudokurecord-api": "StartDebugging",
+        "sudoku-host": "StartDebugging",
+        "sudokufactory-api-dapr": "StartWithoutDebugging",
+        "sudokusubmitter-api-dapr": "StartWithoutDebugging",
+        "sudokupredictor-api-dapr": "StartWithoutDebugging",
+        "sudokurecord-api-dapr": "StartWithoutDebugging",
+        "sudoku-host-dapr": "StartWithoutDebugging",
+        "rabbitmq": "StartWithoutDebugging",
+        "redis": "StartWithoutDebugging",
+        "sqlserver": "StartWithoutDebugging",
+        "zipkin": "StartWithoutDebugging"
+      }
+    }
+  }
+}

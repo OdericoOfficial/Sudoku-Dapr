@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jwSMjG+Idfajwpth0hK7HnfNwqeMOKeRj4NKrsCVKuY=",
+  "Source": "SudokuRecord.API",
+  "BasePath": "_content/SudokuRecord.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

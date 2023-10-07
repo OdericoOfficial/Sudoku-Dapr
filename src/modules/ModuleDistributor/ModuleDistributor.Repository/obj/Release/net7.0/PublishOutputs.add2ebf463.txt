@@ -1,0 +1,11 @@
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.Repository.dll
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.Repository.deps.json
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.Repository.pdb
+D:\aspdotnet\Lib\ModuleDistributorPublish\Microsoft.EntityFrameworkCore.dll
+D:\aspdotnet\Lib\ModuleDistributorPublish\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.dll
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.EntityFrameworkCore.dll
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.Repository.Abstractions.dll
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.EntityFrameworkCore.pdb
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.Repository.Abstractions.pdb
+D:\aspdotnet\Lib\ModuleDistributorPublish\ModuleDistributor.pdb

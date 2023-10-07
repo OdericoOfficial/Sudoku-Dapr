@@ -1,0 +1,17 @@
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\Sudoku.Algorithm.csproj.AssemblyReference.cache
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\Sudoku.Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\Sudoku.Algorithm.AssemblyInfoInputs.cache
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\Sudoku.Algorithm.AssemblyInfo.cs
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\Sudoku.Algorithm.csproj.CoreCompileInputs.cache
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\bin\Debug\net7.0\Sudoku.Algorithm.deps.json
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\bin\Debug\net7.0\Sudoku.Algorithm.dll
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\bin\Debug\net7.0\Sudoku.Algorithm.pdb
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\bin\Debug\net7.0\ModuleDistributor.dll
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\bin\Debug\net7.0\Sudoku.Algorithm.Abstracts.dll
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\bin\Debug\net7.0\ModuleDistributor.pdb
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\bin\Debug\net7.0\Sudoku.Algorithm.Abstracts.pdb
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\Sudoku.Algorithm.csproj.CopyComplete
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\Sudoku.Algorithm.dll
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\refint\Sudoku.Algorithm.dll
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\Sudoku.Algorithm.pdb
+D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm\obj\Debug\net7.0\ref\Sudoku.Algorithm.dll

@@ -1,0 +1,32 @@
+﻿@page "/"
+@inject NavigationManager Navigation
+
+<PageTitle>Sudoku</PageTitle>
+<MCard Style="width: 100vw;"
+       Color="rgba(0, 0, 0, 0)">
+    <MCardTitle class="typing text-center">2023秋软工实践 第二次结对编程作业</MCardTitle>
+    <MCardText>
+
+    </MCardText>
+    <MCardActions>
+        <MSpacer></MSpacer>
+        <MButton Color="rgba(255, 255, 255, 0.1)"
+                 XLarge
+                 OnClick="@(() => Navigation.NavigateTo("/problems/Easy"))">
+            <div style="color:rgba(255, 255, 255, 0.8)">简单</div>
+        </MButton>
+        <MSpacer></MSpacer>
+        <MButton Color="rgba(255, 255, 255, 0.1)"
+                 XLarge
+                 OnClick="@(() => Navigation.NavigateTo("/problems/Normal"))">
+            <div style="color:rgba(255, 255, 255, 0.8)">普通</div>
+        </MButton>
+        <MSpacer></MSpacer>
+        <MButton Color="rgba(255, 255, 255, 0.1)"
+                 XLarge
+                 OnClick="@(() => Navigation.NavigateTo("/problems/Hard"))">
+            <div style="color:rgba(255, 255, 255, 0.8)">困难</div>
+        </MButton>
+        <MSpacer></MSpacer>
+    </MCardActions>
+</MCard>

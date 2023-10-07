@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModuleDistributor.EntityFrameworkCore\ModuleDistributor.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\ModuleDistributor.Repository.Abstractions\ModuleDistributor.Repository.Abstractions.csproj" />
+    <ProjectReference Include="..\ModuleDistributor\ModuleDistributor.csproj" />
+  </ItemGroup>
+
+</Project>

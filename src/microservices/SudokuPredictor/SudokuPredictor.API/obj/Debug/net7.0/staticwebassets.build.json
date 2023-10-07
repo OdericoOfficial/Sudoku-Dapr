@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AeUnVCVUExMVfcJRXab1sQKmP0YvTZG+2G98Y5u7Byo=",
+  "Source": "SudokuPredictor.API",
+  "BasePath": "_content/SudokuPredictor.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
+    <PackageReference Include="Rougamo.Fody" Version="1.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\modules\ModuleDistributor\ModuleDistributor.EntityFrameworkCore\ModuleDistributor.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\..\modules\ModuleDistributor\ModuleDistributor.HealthCheck.Dapr\ModuleDistributor.HealthCheck.Dapr.csproj" />
+    <ProjectReference Include="..\..\..\modules\ModuleDistributor\ModuleDistributor.Logging\ModuleDistributor.Logging.csproj" />
+    <ProjectReference Include="..\..\..\modules\ModuleDistributor\ModuleDistributor.Repository\ModuleDistributor.Repository.csproj" />
+    <ProjectReference Include="..\..\..\modules\ModuleDistributor\ModuleDistributor.Serilog\ModuleDistributor.Serilog.csproj" />
+    <ProjectReference Include="..\..\..\modules\ModuleDistributor\ModuleDistributor.Swagger\ModuleDistributor.Swagger.csproj" />
+    <ProjectReference Include="..\..\SudokuFactory\SudokuFactory.Shared\SudokuFactory.Shared.csproj" />
+    <ProjectReference Include="..\..\SudokuRecord\SudokuRecord.EntityFrameworkCore\SudokuRecord.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\SudokuSubmitter.Shared\SudokuSubmitter.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
+</Project>

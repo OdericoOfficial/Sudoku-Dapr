@@ -1,0 +1,33 @@
+﻿.typing {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2em;
+    width: 40em;
+    height: 1.5em;
+    border-right: 1px solid transparent;
+    animation: typing 2s steps(42, end), blink-caret .75s step-end infinite;
+    font-family: Consolas, Monaco;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 40em;
+    }
+}
+
+
+@keyframes blink-caret {
+
+    from, to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: currentColor;
+    }
+}

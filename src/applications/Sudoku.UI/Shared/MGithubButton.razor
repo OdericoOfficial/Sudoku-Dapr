@@ -1,0 +1,30 @@
+﻿@inject NavigationManager Navigation
+
+<MTooltip Bottom>
+    <ActivatorContent>
+        <FabTransition>
+            <MButton Color="rgba(124, 77, 255, 0.5)"
+                     OnClick="NavigateToGithub"
+                     @attributes="@context.Attrs"
+                      Fab
+                      Dark
+                      Small
+                      Absolute
+                      Bottom
+                      Right>
+                <MIcon>mdi-github</MIcon>
+            </MButton>
+        </FabTransition>
+    </ActivatorContent>
+    <ChildContent>
+        <span>前往项目页面</span>
+    </ChildContent>
+</MTooltip>
+
+@code{
+    [Parameter]
+    public string Url { get; set; }
+
+    private void NavigateToGithub()
+        => Navigation.NavigateTo(Url);
+}

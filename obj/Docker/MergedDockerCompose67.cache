@@ -1,0 +1,673 @@
+name: dockercompose9590864336655094258
+services:
+  rabbitmq:
+    image: rabbitmq:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+  redis:
+    image: redis:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "5379"
+      protocol: tcp
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: L114514114514
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: sudoku-sqlserver
+      target: /var/opt/mssql
+      volume: {}
+  sudoku-host:
+    build:
+      context: D:\aspdotnet\Sudoku
+      dockerfile: src/applications/Sudoku.Host/Dockerfile
+    depends_on:
+      sudokufactory-api:
+        condition: service_started
+      sudokupredictor-api:
+        condition: service_started
+      sudokurecord-api:
+        condition: service_started
+      sudokusubmitter-api:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://0.0.0.0:80
+    image: sudokuhost
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5105"
+      protocol: tcp
+    - mode: ingress
+      target: 50001
+      published: "50005"
+      protocol: tcp
+  sudoku-host-dapr:
+    command:
+    - ./daprd
+    - -app-id
+    - sudokurecord-api
+    - -app-port
+    - "80"
+    - -components-path
+    - /components
+    - -config
+    - /configuration/sudoku-config.yaml
+    depends_on:
+      sudoku-host:
+        condition: service_started
+    image: daprio/daprd:latest
+    network_mode: service:sudoku-host
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\components
+      target: /components
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\configuration
+      target: /configuration
+      bind:
+        create_host_path: true
+  sudokufactory-api:
+    build:
+      context: D:\aspdotnet\Sudoku
+      dockerfile: src/microservices/SudokuFactory/SudokuFactory.API/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: SudokuFactory.API
+      target: base
+    container_name: SudokuFactory.API
+    depends_on:
+      redis:
+        condition: service_started
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://0.0.0.0:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
+    image: sudokufactoryapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages
+        --additionalProbingPath /.nuget/fallbackpackages  "/app/bin/Debug/net7.0/SudokuFactory.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5102"
+      protocol: tcp
+    - mode: ingress
+      target: 50001
+      published: "50003"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.API
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\NuGet\packages
+      target: /.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/ASP.NET/Https
+      target: /home/app/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/Microsoft/UserSecrets
+      target: /home/app/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0
+      target: /TokenService.Proxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0
+      target: /HotReloadProxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\Common7\IDE\CommonExtensions\Microsoft\HotReload
+      target: /HotReloadAgent
+      read_only: true
+      bind:
+        create_host_path: true
+  sudokufactory-api-dapr:
+    command:
+    - ./daprd
+    - -app-id
+    - sudokufactory-api
+    - -app-port
+    - "80"
+    - -components-path
+    - /components
+    - -config
+    - /configuration/sudoku-config.yaml
+    depends_on:
+      redis:
+        condition: service_started
+      sudokufactory-api:
+        condition: service_started
+    image: daprio/daprd:latest
+    network_mode: service:sudokufactory-api
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\components
+      target: /components
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\configuration
+      target: /configuration
+      bind:
+        create_host_path: true
+  sudokupredictor-api:
+    build:
+      context: D:\aspdotnet\Sudoku
+      dockerfile: src/microservices/SudokuPredictor/SudokuPredictor.API/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: SudokuPredictor.API
+      target: base
+    container_name: SudokuPredictor.API
+    depends_on:
+      redis:
+        condition: service_started
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://0.0.0.0:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
+    image: sudokupredictorapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages
+        --additionalProbingPath /.nuget/fallbackpackages  "/app/bin/Debug/net7.0/SudokuPredictor.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5103"
+      protocol: tcp
+    - mode: ingress
+      target: 50001
+      published: "50001"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\src\microservices\SudokuPredictor\SudokuPredictor.API
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\NuGet\packages
+      target: /.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/ASP.NET/Https
+      target: /home/app/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/Microsoft/UserSecrets
+      target: /home/app/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0
+      target: /TokenService.Proxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0
+      target: /HotReloadProxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\Common7\IDE\CommonExtensions\Microsoft\HotReload
+      target: /HotReloadAgent
+      read_only: true
+      bind:
+        create_host_path: true
+  sudokupredictor-api-dapr:
+    command:
+    - ./daprd
+    - -app-id
+    - sudokupredictor-api
+    - -app-port
+    - "80"
+    - -components-path
+    - /components
+    - -config
+    - /configuration/sudoku-config.yaml
+    depends_on:
+      redis:
+        condition: service_started
+      sudokupredictor-api:
+        condition: service_started
+    image: daprio/daprd:latest
+    network_mode: service:sudokupredictor-api
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\components
+      target: /components
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\configuration
+      target: /configuration
+      bind:
+        create_host_path: true
+  sudokurecord-api:
+    build:
+      context: D:\aspdotnet\Sudoku
+      dockerfile: src/microservices/SudokuRecord/SudokuRecord.API/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: SudokuRecord.API
+      target: base
+    container_name: SudokuRecord.API
+    depends_on:
+      redis:
+        condition: service_started
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://0.0.0.0:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
+    image: sudokurecordapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages
+        --additionalProbingPath /.nuget/fallbackpackages  "/app/bin/Debug/net7.0/SudokuRecord.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5104"
+      protocol: tcp
+    - mode: ingress
+      target: 50001
+      published: "50004"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.API
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\NuGet\packages
+      target: /.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/ASP.NET/Https
+      target: /home/app/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/Microsoft/UserSecrets
+      target: /home/app/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0
+      target: /TokenService.Proxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0
+      target: /HotReloadProxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\Common7\IDE\CommonExtensions\Microsoft\HotReload
+      target: /HotReloadAgent
+      read_only: true
+      bind:
+        create_host_path: true
+  sudokurecord-api-dapr:
+    command:
+    - ./daprd
+    - -app-id
+    - sudokurecord-api
+    - -app-port
+    - "80"
+    - -components-path
+    - /components
+    - -config
+    - /configuration/sudoku-config.yaml
+    depends_on:
+      redis:
+        condition: service_started
+      sudokurecord-api:
+        condition: service_started
+    image: daprio/daprd:latest
+    network_mode: service:sudokurecord-api
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\components
+      target: /components
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\configuration
+      target: /configuration
+      bind:
+        create_host_path: true
+  sudokusubmitter-api:
+    build:
+      context: D:\aspdotnet\Sudoku
+      dockerfile: src/microservices/SudokuSubmitter/SudokuSubmitter.API/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: SudokuSubmitter.API
+      target: base
+    container_name: SudokuSubmitter.API
+    depends_on:
+      redis:
+        condition: service_started
+      sqlserver:
+        condition: service_started
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://0.0.0.0:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
+    image: sudokusubmitterapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages
+        --additionalProbingPath /.nuget/fallbackpackages  "/app/bin/Debug/net7.0/SudokuSubmitter.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5101"
+      protocol: tcp
+    - mode: ingress
+      target: 50001
+      published: "50002"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.API
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\NuGet\packages
+      target: /.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/ASP.NET/Https
+      target: /home/app/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\0\AppData\Roaming/Microsoft/UserSecrets
+      target: /home/app/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0
+      target: /TokenService.Proxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0
+      target: /HotReloadProxy
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Microsoft Visual Studio\vs\Common7\IDE\CommonExtensions\Microsoft\HotReload
+      target: /HotReloadAgent
+      read_only: true
+      bind:
+        create_host_path: true
+  sudokusubmitter-api-dapr:
+    command:
+    - ./daprd
+    - -app-id
+    - sudokusubmitter-api
+    - -app-port
+    - "80"
+    - -components-path
+    - /components
+    - -config
+    - /configuration/sudoku-config.yaml
+    depends_on:
+      redis:
+        condition: service_started
+      sudokusubmitter-api:
+        condition: service_started
+    image: daprio/daprd:latest
+    network_mode: service:sudokusubmitter-api
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\components
+      target: /components
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\configuration
+      target: /configuration
+      bind:
+        create_host_path: true
+  zipkin:
+    image: openzipkin/zipkin-slim:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 9411
+      published: "5411"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose9590864336655094258_default
+volumes:
+  sudoku-sqlserver:
+    name: dockercompose9590864336655094258_sudoku-sqlserver

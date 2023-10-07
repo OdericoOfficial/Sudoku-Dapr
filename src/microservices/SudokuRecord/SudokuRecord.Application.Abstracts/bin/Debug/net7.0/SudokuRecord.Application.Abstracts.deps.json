@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SudokuRecord.Application.Abstracts/1.0.0": {
+        "dependencies": {
+          "SudokuFactory.Shared": "1.0.0",
+          "SudokuRecord.Domain.Shared": "1.0.0"
+        },
+        "runtime": {
+          "SudokuRecord.Application.Abstracts.dll": {}
+        }
+      },
+      "SudokuFactory.Shared/1.0.0": {
+        "runtime": {
+          "SudokuFactory.Shared.dll": {}
+        }
+      },
+      "SudokuRecord.Domain.Shared/1.0.0": {
+        "runtime": {
+          "SudokuRecord.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SudokuRecord.Application.Abstracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SudokuFactory.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SudokuRecord.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

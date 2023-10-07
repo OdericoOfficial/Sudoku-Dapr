@@ -1,0 +1,11 @@
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\bin\Debug\net7.0\SudokuSubmitter.Shared.deps.json
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\bin\Debug\net7.0\SudokuSubmitter.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\bin\Debug\net7.0\SudokuSubmitter.Shared.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\obj\Debug\net7.0\SudokuSubmitter.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\obj\Debug\net7.0\SudokuSubmitter.Shared.AssemblyInfoInputs.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\obj\Debug\net7.0\SudokuSubmitter.Shared.AssemblyInfo.cs
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\obj\Debug\net7.0\SudokuSubmitter.Shared.csproj.CoreCompileInputs.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\obj\Debug\net7.0\SudokuSubmitter.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\obj\Debug\net7.0\refint\SudokuSubmitter.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\obj\Debug\net7.0\SudokuSubmitter.Shared.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.Shared\obj\Debug\net7.0\ref\SudokuSubmitter.Shared.dll

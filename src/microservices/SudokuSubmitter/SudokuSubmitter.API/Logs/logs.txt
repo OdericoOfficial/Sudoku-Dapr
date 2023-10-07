@@ -1,0 +1,336 @@
+2023-10-07 11:56:36.666 +00:00 [INF] Starting Host.
+2023-10-07 11:56:40.905 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 11:56:40.909 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 11:56:40.910 +00:00 [INF] Hosting environment: Development
+2023-10-07 11:56:40.910 +00:00 [INF] Content root path: /app
+2023-10-07 11:56:40.971 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json -
+2023-10-07 11:56:41.053 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json - - 404 0 - 83.7011ms
+2023-10-07 11:56:41.058 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json -
+2023-10-07 11:56:41.062 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json - - 404 0 - 3.5362ms
+2023-10-07 11:57:05.807 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 531
+2023-10-07 11:57:05.813 +00:00 [INF] Executing endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 11:57:05.839 +00:00 [INF] Route matched with {action = "SubmitSudoku", controller = "SudokuSubmitter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitSudokuAsync(SudokuSubmitter.Shared.MatSubmit, Microsoft.Extensions.Logging.ILogger`1[SudokuSubmitter.API.Controllers.SudokuSubmitterController]) on controller SudokuSubmitter.API.Controllers.SudokuSubmitterController (SudokuSubmitter.API).
+2023-10-07 11:57:05.976 +00:00 [FTL] SudokuSubmitterController.SubmitSudokuAsync throw exception.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Cannot find mat id.')
+   at SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync(MatSubmit submit, ILogger`1 logger) in D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.API\Controllers\SudokuSubmitterController.cs:line 33
+2023-10-07 11:57:05.994 +00:00 [INF] Executed action SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API) in 150.5328ms
+2023-10-07 11:57:05.994 +00:00 [INF] Executed endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 11:57:06.004 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-07 11:57:06.198 +00:00 [ERR] Connection id "0HMU75HS0E4PG", Request id "0HMU75HS0E4PG:00000003": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'IServiceProvider'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ThrowHelper.ThrowObjectDisposedException()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.Diagnostics.Internal.ScopedLoggerFactory.Create(IServiceProvider internalServiceProvider, IDbContextOptions contextOptions)
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ModuleDistributor.Repository.Repository`2.EnsureChangesAsync() in D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository\Repository.cs:line 37
+   at ModuleDistributor.Repository.Repository`2.DisposeAsync() in D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository\Repository.cs:line 50
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.<DisposeAsync>g__Await|22_0(Int32 i, ValueTask vt, List`1 toDispose)
+   at Microsoft.AspNetCore.Http.Features.RequestServicesFeature.<DisposeAsync>g__Awaited|9_0(RequestServicesFeature servicesFeature, ValueTask vt)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<FireOnCompleted>g__ProcessEvents|242_0(HttpProtocol protocol, Stack`1 events)
+2023-10-07 11:57:06.198 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 531 - 500 - text/plain;+charset=utf-8 391.2633ms
+2023-10-07 11:58:06.535 +00:00 [INF] Starting Host.
+2023-10-07 11:58:11.576 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 11:58:11.581 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 11:58:11.582 +00:00 [INF] Hosting environment: Development
+2023-10-07 11:58:11.583 +00:00 [INF] Content root path: /app
+2023-10-07 11:58:25.659 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 633
+2023-10-07 11:58:25.710 +00:00 [INF] Executing endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 11:58:25.735 +00:00 [INF] Route matched with {action = "SubmitSudoku", controller = "SudokuSubmitter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitSudokuAsync(SudokuSubmitter.Shared.MatSubmit, Microsoft.Extensions.Logging.ILogger`1[SudokuSubmitter.API.Controllers.SudokuSubmitterController]) on controller SudokuSubmitter.API.Controllers.SudokuSubmitterController (SudokuSubmitter.API).
+2023-10-07 11:58:25.875 +00:00 [FTL] SudokuSubmitterController.SubmitSudokuAsync throw exception.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Cannot find mat id.')
+   at SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync(MatSubmit submit, ILogger`1 logger) in D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.API\Controllers\SudokuSubmitterController.cs:line 33
+2023-10-07 11:58:25.895 +00:00 [INF] Executed action SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API) in 156.1761ms
+2023-10-07 11:58:25.896 +00:00 [INF] Executed endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 11:58:25.906 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-07 11:58:26.037 +00:00 [ERR] Connection id "0HMU75IR6QNL7", Request id "0HMU75IR6QNL7:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'IServiceProvider'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ThrowHelper.ThrowObjectDisposedException()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.Diagnostics.Internal.ScopedLoggerFactory.Create(IServiceProvider internalServiceProvider, IDbContextOptions contextOptions)
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ModuleDistributor.Repository.Repository`2.EnsureChangesAsync() in D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository\Repository.cs:line 37
+   at ModuleDistributor.Repository.Repository`2.DisposeAsync() in D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository\Repository.cs:line 50
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.<DisposeAsync>g__Await|22_0(Int32 i, ValueTask vt, List`1 toDispose)
+   at Microsoft.AspNetCore.Http.Features.RequestServicesFeature.<DisposeAsync>g__Awaited|9_0(RequestServicesFeature servicesFeature, ValueTask vt)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<FireOnCompleted>g__ProcessEvents|242_0(HttpProtocol protocol, Stack`1 events)
+2023-10-07 11:58:26.040 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 633 - 500 - text/plain;+charset=utf-8 381.8377ms
+2023-10-07 11:59:46.944 +00:00 [INF] Starting Host.
+2023-10-07 11:59:51.124 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 11:59:51.129 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 11:59:51.130 +00:00 [INF] Hosting environment: Development
+2023-10-07 11:59:51.132 +00:00 [INF] Content root path: /app
+2023-10-07 12:00:04.013 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 633
+2023-10-07 12:00:04.065 +00:00 [INF] Executing endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:00:04.089 +00:00 [INF] Route matched with {action = "SubmitSudoku", controller = "SudokuSubmitter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitSudokuAsync(SudokuSubmitter.Shared.MatSubmit, Microsoft.Extensions.Logging.ILogger`1[SudokuSubmitter.API.Controllers.SudokuSubmitterController]) on controller SudokuSubmitter.API.Controllers.SudokuSubmitterController (SudokuSubmitter.API).
+2023-10-07 12:02:52.605 +00:00 [INF] Starting Host.
+2023-10-07 12:02:57.039 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 12:02:57.043 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 12:02:57.044 +00:00 [INF] Hosting environment: Development
+2023-10-07 12:02:57.044 +00:00 [INF] Content root path: /app
+2023-10-07 12:03:17.155 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 633
+2023-10-07 12:03:17.204 +00:00 [INF] Executing endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:03:17.227 +00:00 [INF] Route matched with {action = "SubmitSudoku", controller = "SudokuSubmitter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitSudokuAsync(SudokuSubmitter.Shared.MatSubmit, Microsoft.Extensions.Logging.ILogger`1[SudokuSubmitter.API.Controllers.SudokuSubmitterController]) on controller SudokuSubmitter.API.Controllers.SudokuSubmitterController (SudokuSubmitter.API).
+2023-10-07 12:07:50.178 +00:00 [INF] Starting Host.
+2023-10-07 12:07:53.617 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 12:07:53.623 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 12:07:53.624 +00:00 [INF] Hosting environment: Development
+2023-10-07 12:07:53.624 +00:00 [INF] Content root path: /app
+2023-10-07 12:08:08.929 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 633
+2023-10-07 12:08:08.976 +00:00 [INF] Executing endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:08:08.999 +00:00 [INF] Route matched with {action = "SubmitSudoku", controller = "SudokuSubmitter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitSudokuAsync(SudokuSubmitter.Shared.MatSubmit, Microsoft.Extensions.Logging.ILogger`1[SudokuSubmitter.API.Controllers.SudokuSubmitterController]) on controller SudokuSubmitter.API.Controllers.SudokuSubmitterController (SudokuSubmitter.API).
+2023-10-07 12:08:09.137 +00:00 [FTL] SudokuSubmitterController.SubmitSudokuAsync throw exception.
+Dapr.DaprException: State operation failed: the Dapr endpoint indicated a failure. See InnerException for details.
+ ---> Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="input key/keyPrefix 'sudokufactory-api||f215890b-5518-4ad0-a9be-b652718a90e0' can't contain '||'")
+   at Dapr.Client.DaprClientGrpc.GetStateAsync[TValue](String storeName, String key, Nullable`1 consistencyMode, IReadOnlyDictionary`2 metadata, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Dapr.Client.DaprClientGrpc.GetStateAsync[TValue](String storeName, String key, Nullable`1 consistencyMode, IReadOnlyDictionary`2 metadata, CancellationToken cancellationToken)
+   at SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync(MatSubmit submit, ILogger`1 logger) in D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.API\Controllers\SudokuSubmitterController.cs:line 30
+2023-10-07 12:08:09.155 +00:00 [INF] Executed action SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API) in 151.8626ms
+2023-10-07 12:08:09.155 +00:00 [INF] Executed endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:08:09.160 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-07 12:08:09.302 +00:00 [ERR] Connection id "0HMU75O91BV8J", Request id "0HMU75O91BV8J:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'IServiceProvider'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ThrowHelper.ThrowObjectDisposedException()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.Diagnostics.Internal.ScopedLoggerFactory.Create(IServiceProvider internalServiceProvider, IDbContextOptions contextOptions)
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ModuleDistributor.Repository.Repository`2.EnsureChangesAsync() in D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository\Repository.cs:line 37
+   at ModuleDistributor.Repository.Repository`2.DisposeAsync() in D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository\Repository.cs:line 50
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.<DisposeAsync>g__Await|22_0(Int32 i, ValueTask vt, List`1 toDispose)
+   at Microsoft.AspNetCore.Http.Features.RequestServicesFeature.<DisposeAsync>g__Awaited|9_0(RequestServicesFeature servicesFeature, ValueTask vt)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<FireOnCompleted>g__ProcessEvents|242_0(HttpProtocol protocol, Stack`1 events)
+2023-10-07 12:08:09.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 633 - 500 - text/plain;+charset=utf-8 376.1746ms
+2023-10-07 12:11:21.316 +00:00 [INF] Starting Host.
+2023-10-07 12:11:25.088 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 12:11:25.091 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 12:11:25.092 +00:00 [INF] Hosting environment: Development
+2023-10-07 12:11:25.092 +00:00 [INF] Content root path: /app
+2023-10-07 12:11:57.145 +00:00 [INF] Starting Host.
+2023-10-07 12:12:01.058 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 12:12:01.062 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 12:12:01.062 +00:00 [INF] Hosting environment: Development
+2023-10-07 12:12:01.063 +00:00 [INF] Content root path: /app
+2023-10-07 12:12:26.778 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 633
+2023-10-07 12:12:26.826 +00:00 [INF] Executing endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:12:26.850 +00:00 [INF] Route matched with {action = "SubmitSudoku", controller = "SudokuSubmitter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitSudokuAsync(SudokuSubmitter.Shared.MatSubmit, Microsoft.Extensions.Logging.ILogger`1[SudokuSubmitter.API.Controllers.SudokuSubmitterController]) on controller SudokuSubmitter.API.Controllers.SudokuSubmitterController (SudokuSubmitter.API).
+2023-10-07 12:12:26.981 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-10-07 12:12:26.991 +00:00 [INF] Executed action SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API) in 135.7056ms
+2023-10-07 12:12:26.991 +00:00 [INF] Executed endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:12:27.084 +00:00 [ERR] Connection id "0HMU75QLSDOQ8", Request id "0HMU75QLSDOQ8:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'IServiceProvider'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ThrowHelper.ThrowObjectDisposedException()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.Diagnostics.Internal.ScopedLoggerFactory.Create(IServiceProvider internalServiceProvider, IDbContextOptions contextOptions)
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ModuleDistributor.Repository.Repository`2.EnsureChangesAsync() in D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository\Repository.cs:line 37
+   at ModuleDistributor.Repository.Repository`2.DisposeAsync() in D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository\Repository.cs:line 50
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.<DisposeAsync>g__Await|22_0(Int32 i, ValueTask vt, List`1 toDispose)
+   at Microsoft.AspNetCore.Http.Features.RequestServicesFeature.<DisposeAsync>g__Awaited|9_0(RequestServicesFeature servicesFeature, ValueTask vt)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<FireOnCompleted>g__ProcessEvents|242_0(HttpProtocol protocol, Stack`1 events)
+2023-10-07 12:12:27.086 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 633 - 400 - text/plain;+charset=utf-8 308.8087ms
+2023-10-07 12:20:34.556 +00:00 [INF] Starting Host.
+2023-10-07 12:20:39.763 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 12:20:39.768 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 12:20:39.769 +00:00 [INF] Hosting environment: Development
+2023-10-07 12:20:39.769 +00:00 [INF] Content root path: /app
+2023-10-07 12:20:39.872 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json -
+2023-10-07 12:20:39.972 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json - - 404 0 - 110.0881ms
+2023-10-07 12:20:39.981 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json -
+2023-10-07 12:20:39.985 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json - - 404 0 - 3.6539ms
+2023-10-07 12:20:48.901 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 1327
+2023-10-07 12:20:48.906 +00:00 [INF] Executing endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:20:48.930 +00:00 [INF] Route matched with {action = "SubmitSudoku", controller = "SudokuSubmitter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitSudokuAsync(SudokuSubmitter.Shared.MatSubmit, Microsoft.Extensions.Logging.ILogger`1[SudokuSubmitter.API.Controllers.SudokuSubmitterController]) on controller SudokuSubmitter.API.Controllers.SudokuSubmitterController (SudokuSubmitter.API).
+2023-10-07 12:20:49.211 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuSubmitter.Shared.MatRet'.
+2023-10-07 12:20:49.223 +00:00 [INF] Executed action SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API) in 290.7446ms
+2023-10-07 12:20:49.224 +00:00 [INF] Executed endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:20:49.230 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 1327 - 200 - application/json;+charset=utf-8 328.9398ms
+2023-10-07 12:21:32.840 +00:00 [INF] Starting Host.
+2023-10-07 12:21:41.415 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 12:21:41.421 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 12:21:41.421 +00:00 [INF] Hosting environment: Development
+2023-10-07 12:21:41.421 +00:00 [INF] Content root path: /app
+2023-10-07 12:22:10.515 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 1327
+2023-10-07 12:22:10.565 +00:00 [INF] Executing endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:22:10.588 +00:00 [INF] Route matched with {action = "SubmitSudoku", controller = "SudokuSubmitter"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SubmitSudokuAsync(SudokuSubmitter.Shared.MatSubmit, Microsoft.Extensions.Logging.ILogger`1[SudokuSubmitter.API.Controllers.SudokuSubmitterController]) on controller SudokuSubmitter.API.Controllers.SudokuSubmitterController (SudokuSubmitter.API).
+2023-10-07 12:22:10.898 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuSubmitter.Shared.MatRet'.
+2023-10-07 12:22:10.913 +00:00 [INF] Executed action SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API) in 321.5569ms
+2023-10-07 12:22:10.913 +00:00 [INF] Executed endpoint 'SudokuSubmitter.API.Controllers.SudokuSubmitterController.SubmitSudokuAsync (SudokuSubmitter.API)'
+2023-10-07 12:22:10.922 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuSubmitter/SubmitSudoku application/json;+charset=utf-8 1327 - 200 - application/json;+charset=utf-8 409.3127ms

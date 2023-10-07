@@ -1,0 +1,53 @@
+﻿@inherits LayoutComponentBase
+
+<MApp>
+    <PPageTabsProvider>
+        <MMain Style="background-image: url('https://img.zcool.cn/community/0169a96093636011013e3b7da1234a.gif'); background-size: cover; background-repeat: no-repeat;">
+            <MCustomAppBar BarTitle="Sudoku"
+                           PageTabs="_pageTabs"
+                           TabOptionsFunc="TabOptions"></MCustomAppBar>
+            <MSystemBar App
+                         Color="rgba(103, 58, 183, 0.5)">
+                 <MSpacer></MSpacer>
+                 <MIcon Color="white">mdi-square-outline</MIcon>
+                 <MIcon Color="white">mdi-circle-outline</MIcon>
+                 <MIcon Color="white">mdi-triangle-outline</MIcon>
+             </MSystemBar>
+             <PPageContainer PageTabs="_pageTabs"
+                             ExcludePatterns="_excludePatterns">
+                 <MContainer Fluid>
+                    @Body
+                </MContainer>
+            </PPageContainer>
+            <MFooter Padless
+                      Elevation="4"
+                     App
+                      Color="rgba(149, 117, 205, 0.5)">
+                 <MSpacer></MSpacer>
+                 <PBlockText Secondary="@($"Copyright © {DateTime.Now.Year} Presented by Oderico_Official, Powered by Blazor Server, All Rights Reserved.")"
+                             SecondaryStyle="color: white"></PBlockText>
+                 <MSpacer></MSpacer>
+             </MFooter>
+         </MMain>
+    </PPageTabsProvider>
+</MApp>
+
+ @code{
+    private PPageTabs _pageTabs;
+
+    private IEnumerable<string> _excludePatterns = new string[]
+    {
+        "/record"
+    };
+
+    private TabOptions TabOptions(PageTabPathValue pathValue)
+    {
+        var tokens = pathValue.AbsolutePath.Split('/');
+        if (string.IsNullOrEmpty(tokens[1]))
+            return new TabOptions("主页", "mdi-home-outline", "font-weight-bold");
+        else if(tokens[1] == "record")
+            return new TabOptions("记录", "mdi-book-outline", "font-weight-bold");
+        else
+            return new TabOptions($"数独-{tokens[2]}", "mdi-book-edit-outline", "font-weight-bold");
+    }
+}

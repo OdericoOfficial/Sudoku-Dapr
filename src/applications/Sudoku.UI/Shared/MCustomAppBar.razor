@@ -1,0 +1,71 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
+
+<MAppBar Outlined
+         Dark
+         Dense
+         App
+         Color="rgba(126, 87, 194, 0.5)"
+         Flat>
+    <ChildContent>
+        <MAppBarNavIcon @onclick="()=>_drawer = !(_drawer ?? false)"></MAppBarNavIcon>
+        <MSpacer></MSpacer>
+        <MAppBarTitle Class="text-center">@BarTitle</MAppBarTitle>
+        <MSpacer></MSpacer>
+    </ChildContent>
+    <ExtensionContent>
+        <PPageTabs AskBeforeClosing="false"
+                    Ripple
+                    TabOptions="TabOptionsFunc"
+                    @ref="PageTabs"></PPageTabs>
+        <MGithubButton Url="Url"></MGithubButton>
+    </ExtensionContent>
+</MAppBar>
+<MNavigationDrawer @bind-Value="_drawer"
+                    Width="160"
+                    App
+                    Color="rgba(255, 255, 255, 0.1)">
+     <MList>
+        @foreach (var item in _links)
+        {
+            <MListItem Link
+                       OnClick="item.Action">
+                <MListItemIcon>
+                    <MIcon Color="rgba(255, 255, 255, 0.8)">@item.Icon</MIcon>
+                </MListItemIcon>
+
+                <MListItemContent>
+                    <MListItemTitle Style="color:rgba(255, 255, 255, 0.8)">@item.Text</MListItemTitle>
+                </MListItemContent>
+            </MListItem>
+        }
+    </MList>
+</MNavigationDrawer>
+
+@code{
+    [Parameter]
+    public string BarTitle { get; set; }
+
+    [Parameter]
+    public string Url { get; set; }
+
+    [Parameter]
+    public PPageTabs PageTabs { get; set; }
+
+    [Parameter]
+    public Func<PageTabPathValue, TabOptions> TabOptionsFunc { get; set; }
+
+    private bool? _drawer;
+
+    private List<(string Icon, string Text, Action Action)> _links;
+
+    protected override Task OnInitializedAsync()
+    {
+        _links = new()
+        {
+            ("mdi-home-outline","主页", () => Navigation.NavigateTo("/")),
+            ("mdi-book-outline","记录", () => Navigation.NavigateTo("/record"))
+        };
+        return Task.CompletedTask;
+    }
+}

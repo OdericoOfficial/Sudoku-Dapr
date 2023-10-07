@@ -1,0 +1,216 @@
+name: dockercompose9590864336655094258
+services:
+  rabbitmq:
+    image: rabbitmq:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+  redis:
+    image: redis:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "5379"
+      protocol: tcp
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: L114514114514
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: sudoku-sqlserver
+      target: /var/opt/mssql
+      volume: {}
+  sudoku-dapr-placement:
+    command:
+    - ./placement
+    - -port
+    - "50000"
+    - -log-level
+    - debug
+    image: daprio/dapr:1.11.1
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 50000
+      published: "50000"
+      protocol: tcp
+  sudokufactory-api:
+    build:
+      context: D:\aspdotnet\Sudoku
+      dockerfile: src/microservices/SudokuFactory/SudokuFactory.API/Dockerfile
+    depends_on:
+      redis:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://0.0.0.0:80
+    image: sudokufactoryapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5102"
+      protocol: tcp
+    - mode: ingress
+      target: 50001
+      published: "50003"
+      protocol: tcp
+  sudokufactory-api-dapr:
+    command:
+    - ./daprd
+    - -app-id
+    - sudokufactory-api
+    - -app-port
+    - "80"
+    - -components-path
+    - /components
+    - -config
+    - /configuration/sudoku-config.yaml
+    depends_on:
+      sudokufactory-api:
+        condition: service_started
+    image: daprio/daprd:1.11.1
+    network_mode: service:sudokufactory-api
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\components
+      target: /components
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\configuration
+      target: /configuration
+      bind:
+        create_host_path: true
+  sudokupredictor-api:
+    build:
+      context: D:\aspdotnet\Sudoku
+      dockerfile: src/microservices/SudokuPredictor/SudokuPredictor.API/Dockerfile
+    depends_on:
+      redis:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://0.0.0.0:80
+    image: sudokupredictorapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5103"
+      protocol: tcp
+    - mode: ingress
+      target: 50001
+      published: "50001"
+      protocol: tcp
+  sudokupredictor-api-dapr:
+    command:
+    - ./daprd
+    - -app-id
+    - sudokupredictor-api
+    - -app-port
+    - "80"
+    - -components-path
+    - /components
+    - -config
+    - /configuration/sudoku-config.yaml
+    depends_on:
+      sudokupredictor-api:
+        condition: service_started
+    image: daprio/daprd:1.11.1
+    network_mode: service:sudokupredictor-api
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\components
+      target: /components
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\configuration
+      target: /configuration
+      bind:
+        create_host_path: true
+  sudokusubmitter-api:
+    build:
+      context: D:\aspdotnet\Sudoku
+      dockerfile: src/microservices/SudokuSubmitter/SudokuSubmitter.API/Dockerfile
+    depends_on:
+      redis:
+        condition: service_started
+      sqlserver:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://0.0.0.0:80
+    image: sudokusubmitterapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5101"
+      protocol: tcp
+    - mode: ingress
+      target: 50001
+      published: "50002"
+      protocol: tcp
+  sudokusubmitter-api-dapr:
+    command:
+    - ./daprd
+    - -app-id
+    - sudokusubmitter-api
+    - -app-port
+    - "80"
+    - -components-path
+    - /components
+    - -config
+    - /configuration/sudoku-config.yaml
+    depends_on:
+      sudokusubmitter-api:
+        condition: service_started
+    image: daprio/daprd:1.11.1
+    network_mode: service:sudokusubmitter-api
+    volumes:
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\components
+      target: /components
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\aspdotnet\Sudoku\dapr\configuration
+      target: /configuration
+      bind:
+        create_host_path: true
+  zipkin:
+    image: openzipkin/zipkin-slim:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 9411
+      published: "5411"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose9590864336655094258_default
+volumes:
+  sudoku-sqlserver:
+    name: dockercompose9590864336655094258_sudoku-sqlserver

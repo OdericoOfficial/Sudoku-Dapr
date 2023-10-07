@@ -1,0 +1,780 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\Sudoku.Host.csproj": {}
+  },
+  "projects": {
+    "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\Sudoku.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\Sudoku.Host.csproj",
+        "projectName": "Sudoku.Host",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\Sudoku.Host.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj"
+              },
+              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj"
+              },
+              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj"
+              },
+              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.4, )"
+            },
+            "Rougamo.Fody": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
+        "projectName": "Sudoku.UI",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj"
+              },
+              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj"
+              },
+              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapr.Client": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Masa.Blazor": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
+        "projectName": "SudokuFactory.Shared",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
+        "projectName": "SudokuRecord.Domain.Shared",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
+        "projectName": "SudokuSubmitter.Shared",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj",
+        "projectName": "ModuleDistributor.Dapr",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj",
+        "projectName": "ModuleDistributor.HealthCheck.Dapr",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj"
+              },
+              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj",
+        "projectName": "ModuleDistributor.HealthCheck",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj",
+        "projectName": "ModuleDistributor.Logging",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Rougamo.Fody": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj",
+        "projectName": "ModuleDistributor.Serilog",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Rougamo.Fody": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj",
+        "projectName": "ModuleDistributor",
+        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj",
+        "packagesPath": "D:\\NuGet\\packages",
+        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/u1b/nlqL6dbshCBqRuqhPtUpfJIsWI8F7nvptSihYY=",
+  "Source": "SudokuSubmitter.API",
+  "BasePath": "_content/SudokuSubmitter.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

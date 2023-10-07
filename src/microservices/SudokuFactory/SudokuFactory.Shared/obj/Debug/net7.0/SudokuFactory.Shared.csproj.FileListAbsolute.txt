@@ -1,0 +1,11 @@
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\bin\Debug\net7.0\SudokuFactory.Shared.deps.json
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\bin\Debug\net7.0\SudokuFactory.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\bin\Debug\net7.0\SudokuFactory.Shared.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\obj\Debug\net7.0\SudokuFactory.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\obj\Debug\net7.0\SudokuFactory.Shared.AssemblyInfoInputs.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\obj\Debug\net7.0\SudokuFactory.Shared.AssemblyInfo.cs
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\obj\Debug\net7.0\SudokuFactory.Shared.csproj.CoreCompileInputs.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\obj\Debug\net7.0\SudokuFactory.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\obj\Debug\net7.0\refint\SudokuFactory.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\obj\Debug\net7.0\SudokuFactory.Shared.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.Shared\obj\Debug\net7.0\ref\SudokuFactory.Shared.dll

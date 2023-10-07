@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ModuleDistributor\ModuleDistributor\ModuleDistributor.csproj" />
+    <ProjectReference Include="..\Sudoku.Algorithm.Abstracts\Sudoku.Algorithm.Abstracts.csproj" />
+  </ItemGroup>
+
+</Project>

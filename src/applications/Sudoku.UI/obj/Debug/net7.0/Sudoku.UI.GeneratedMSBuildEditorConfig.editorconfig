@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = Sudoku.UI
+build_property.RootNamespace = Sudoku.UI
+build_property.ProjectDir = D:\aspdotnet\Sudoku\src\applications\Sudoku.UI\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\aspdotnet\Sudoku\src\applications\Sudoku.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/aspdotnet/Sudoku/src/applications/Sudoku.UI/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/aspdotnet/Sudoku/src/applications/Sudoku.UI/Pages/Problems.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvYmxlbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/aspdotnet/Sudoku/src/applications/Sudoku.UI/Pages/Records.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjb3Jkcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/aspdotnet/Sudoku/src/applications/Sudoku.UI/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/aspdotnet/Sudoku/src/applications/Sudoku.UI/Shared/MCustomAppBar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1DdXN0b21BcHBCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/aspdotnet/Sudoku/src/applications/Sudoku.UI/Shared/MGithubButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1HaXRodWJCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/aspdotnet/Sudoku/src/applications/Sudoku.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

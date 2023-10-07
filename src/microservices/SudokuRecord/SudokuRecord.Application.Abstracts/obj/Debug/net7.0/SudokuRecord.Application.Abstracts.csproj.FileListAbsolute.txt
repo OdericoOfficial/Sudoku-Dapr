@@ -1,0 +1,17 @@
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\bin\Debug\net7.0\SudokuRecord.Application.Abstracts.deps.json
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\bin\Debug\net7.0\SudokuRecord.Application.Abstracts.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\bin\Debug\net7.0\SudokuRecord.Application.Abstracts.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\bin\Debug\net7.0\SudokuRecord.Domain.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\bin\Debug\net7.0\SudokuRecord.Domain.Shared.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\SudokuRecord.Application.Abstracts.csproj.AssemblyReference.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\SudokuRecord.Application.Abstracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\SudokuRecord.Application.Abstracts.AssemblyInfoInputs.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\SudokuRecord.Application.Abstracts.AssemblyInfo.cs
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\SudokuRecord.Application.Abstracts.csproj.CoreCompileInputs.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\SudokuRecord.Application.Abstracts.csproj.CopyComplete
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\SudokuRecord.Application.Abstracts.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\refint\SudokuRecord.Application.Abstracts.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\SudokuRecord.Application.Abstracts.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\obj\Debug\net7.0\ref\SudokuRecord.Application.Abstracts.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\bin\Debug\net7.0\SudokuFactory.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Application.Abstracts\bin\Debug\net7.0\SudokuFactory.Shared.pdb

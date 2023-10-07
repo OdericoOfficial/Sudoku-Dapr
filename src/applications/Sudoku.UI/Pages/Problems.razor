@@ -1,0 +1,230 @@
+﻿@page "/problems/{initMode}"
+@inject DaprClient Client
+@inject IPopupService PopupService
+
+<PageTitle>数独-@(InitMode)</PageTitle>
+<MCard Style="width: 100vw;"
+       Color="rgba(0, 0, 0, 0)"
+       Dark>
+    <MCardTitle class="typing text-center">数独-@(_index + 1)</MCardTitle>
+    <MCardText>
+        @if(_results is not null)
+        {
+            <MWindow @bind-Value="Index">
+                @foreach (var item in Enumerable.Range(0, 9))
+                {
+                    <MWindowItem Value="@item">
+                        @foreach (var i in Enumerable.Range(0, 9))
+                        {
+                            <MRow>
+                                @foreach (var j in Enumerable.Range(0, 9))
+                                {
+                                    <MCol>
+                                        @if (_results[item].Mat[i * 9 + j] != 0)
+                                        {
+                                            <div class="text-h5 flex-grow-1 text-center"
+                                                 oncopy="return false;"
+                                                 style="color:rgba(255, 255, 255, 0.8)">
+                                                @_results[item].Mat[i * 9 + j]
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <MSelect Items="_items[item][i * 9 + j].Value"
+                                                     @bind-Value="@_items[item][i * 9 + j].Key"
+                                                     ItemText="text => text"
+                                                     ItemValue="value => value"
+                                                     Dense></MSelect>
+                                        }
+                                    </MCol>
+                                }
+                            </MRow>
+                        }
+                    </MWindowItem>
+                }
+            </MWindow>
+        }
+    </MCardText>
+    <MCardActions Class="justify-space-between">
+         <MButton Text
+                  OnClick="() => _index = _index - 1 < 0 ? 8 : _index - 1">
+             <MIcon>mdi-chevron-left</MIcon>
+         </MButton>
+         @if (!_isFinish)
+         {
+            <MButton Text
+                      OnClick="SubmitAsync">
+                 提交当前
+             </MButton>
+         }
+        <MItemGroup @bind-Value="Index"
+                    Class="text-center"
+                    Mandatory>
+            @foreach (var item in Enumerable.Range(0, 9))
+            {
+                <MItem Value="item">
+                    <MButton IsActive="@context.Active"
+                             Icon
+                             OnClick="context.Toggle">
+                         <MIcon>mdi-record</MIcon>
+                     </MButton>
+                 </MItem>
+            }
+        </MItemGroup>
+        @if (!_isFinish)
+        {
+            <MButton Text
+                      OnClick="FinishAsync">
+                 一键完成全部
+             </MButton>
+        }
+        <MButton Text
+                 OnClick="() => _index = (_index + 1) % 9">
+             <MIcon>mdi-chevron-right</MIcon>
+         </MButton>
+     </MCardActions>
+</MCard>
+
+ @code {
+    [Parameter]
+    public string InitMode { get; set; }
+
+    private AlertTypes _alertType = AlertTypes.Success;
+    private MatResult[] _results;
+
+    private int _index = 0;
+    public StringNumber Index
+    {
+        get => _index;
+        set => _index = value.AsT1;
+    }
+
+    private class Pair
+    {
+        public string Key { get; set; }
+        public string[] Value { get; set; }
+        public Pair(string key, string[] value)
+        {
+            Key = key;
+            Value = value;
+        }
+    }
+
+    private Dictionary<int, Pair>[] _items =
+        new Dictionary<int, Pair>[9];
+
+    private bool _isFinish = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        switch (InitMode)
+        {
+            case "Easy":
+                await InitMatsAsync(1);
+                break;
+            case "Normal":
+                await InitMatsAsync(20);
+                break;
+            case "Hard":
+                await InitMatsAsync(30);
+                break;
+        }
+    }
+
+    private async Task InitMatsAsync(int initCount)
+    {
+        Task<MatResult>[] results = new Task<MatResult>[9];
+        for (int i = 0; i < 9; i++)
+            results[i] = Client.InvokeMethodAsync<MatInit, MatResult>("sudokufactory-api", "SudokuFactory/GetSudoku", new(){ InitCount = initCount });
+        _results = await Task.WhenAll(results);
+        for (int i = 0; i < 9; i++)
+        {
+            for (int j = 0; j < 9; j++)
+            {
+                for (int k = 0; k < 9; k++)
+                {
+                    if (_results[i].Mat[j * 9 + k] == 0)
+                    {
+                        if (_items[i] is null)
+                            _items[i] = new Dictionary<int, Pair>();
+                        _items[i].Add(j * 9 + k, new("", new[]
+                        {
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9",
+    }));
+                    }
+                }
+            }
+        }
+    }
+
+    private async void SubmitAsync()
+    {
+        byte[] mat = new byte[81];
+        byte[] input = new byte[324];
+        Array.Copy(_results[_index].Mat, mat, 81);
+        foreach (var item in _items[_index])
+        {
+            if (string.IsNullOrEmpty(item.Value.Key))
+            {
+                _alertType = AlertTypes.Warning;
+                await PopupService.EnqueueSnackbarAsync("还有空格没填", _alertType);
+                return;
+            }
+
+            mat[item.Key] = Convert.ToByte(Convert.ToInt32(item.Value.Key));
+            var i = item.Key / 9;
+            var j = item.Key % 9;
+            var ex = item.Key;
+            var row = i * 9 + 80 + mat[ex];
+            var col = j * 9 + 161 + mat[ex];
+            var part = (i / 3 * 3 + j / 3) * 9 + 242 + mat[ex];
+            input[ex] = 1;
+            input[row] = 1;
+            input[col] = 1;
+            input[part] = 1;
+        }
+        var condition = await Client.InvokeMethodAsync<MatGuid, MatResult>("sudokufactory-api", "SudokuFactory/GetCondition", new() { Guid = _results[_index].Id });
+        var standardFinal = await Client.InvokeMethodAsync<MatGuid, MatResult>("sudokufactory-api", "SudokuFactory/GetStandardFinal", new() { Guid = _results[_index].Id });
+
+        var ret = await Client.InvokeMethodAsync<MatSubmit, MatRet>("sudokusubmitter-api", "SudokuSubmitter/SubmitSudoku", new MatSubmit
+        {
+            Id = _results[_index].Id,
+            Input = input,
+            StartTime = "",
+            EndTime = "",
+            Mat = mat,
+            Condition = condition.Mat,
+            Matrix = _results[_index].Mat,
+            StandardFinal = standardFinal.Mat
+        });
+
+        if (!ret.Result)
+        {
+            _alertType = AlertTypes.Error;
+            await PopupService.EnqueueSnackbarAsync("答案有误", _alertType);
+        }
+
+        _alertType = AlertTypes.Success;
+        await PopupService.EnqueueSnackbarAsync("答案正确", _alertType);
+    }
+
+    private async Task FinishAsync()
+    {
+        Task<MatResult>[] bytes = new Task<MatResult>[9];
+        MatResult[] results = _results;
+        _results = null;
+        for (int i = 0; i < 9; i++)
+            bytes[i] = Client.InvokeMethodAsync<MatGuid, MatResult>("sudokufactory-api", "SudokuFactory/GetStandardFinal", new() { Guid = results[i].Id });
+        _results = await Task.WhenAll(bytes);
+        _isFinish = true;
+        StateHasChanged();
+    }
+}

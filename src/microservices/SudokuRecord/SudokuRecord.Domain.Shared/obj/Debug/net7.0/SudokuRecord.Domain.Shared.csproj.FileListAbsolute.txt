@@ -1,0 +1,11 @@
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\bin\Debug\net7.0\SudokuRecord.Domain.Shared.deps.json
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\bin\Debug\net7.0\SudokuRecord.Domain.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\bin\Debug\net7.0\SudokuRecord.Domain.Shared.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\obj\Debug\net7.0\SudokuRecord.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\obj\Debug\net7.0\SudokuRecord.Domain.Shared.AssemblyInfoInputs.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\obj\Debug\net7.0\SudokuRecord.Domain.Shared.AssemblyInfo.cs
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\obj\Debug\net7.0\SudokuRecord.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\obj\Debug\net7.0\SudokuRecord.Domain.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\obj\Debug\net7.0\refint\SudokuRecord.Domain.Shared.dll
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\obj\Debug\net7.0\SudokuRecord.Domain.Shared.pdb
+D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.Domain.Shared\obj\Debug\net7.0\ref\SudokuRecord.Domain.Shared.dll
