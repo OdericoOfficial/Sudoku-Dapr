@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0VhbNkD/OsKn3+NsSMWxy2UQCZM6swrblE6Op5uGdO0YoCU7iPq4shPUXCez9zXxvdeXMQxds1CKV17pJpSUlg==",
+  "dgSpecHash": "mjJEEJ0SRAF2yV2+y2bS50Gv86bZEXPcJoV/zfJKzx7HIhnC2PsRi4G+qcpMw6NKPlBoziJeWSD9RqxRRfkrSw==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e3KBHkLYyZ7IsVRrLEPi1v9JRykqnJFvGi8bU6AU4vKUiZx4lOAl+qQjCCiE0USEMrK7JhiS3O2skvZQSb+gMA==",
+  "dgSpecHash": "z+VkbZNePj5cNZFf9OkvxuHeB3L7jAqLLYQBWyG/A8tEONvdmxOB/P17FaLBgpZxbMsMv5GLsNCeZ2fw6ezckg==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Application.Abstracts\\SudokuRecord.Application.Abstracts.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Application.Abstracts\\SudokuRecord.Application.Abstracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

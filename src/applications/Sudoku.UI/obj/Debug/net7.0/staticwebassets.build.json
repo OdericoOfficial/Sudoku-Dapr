@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KJA8BiJsAvDZthB1r2m+9barldb1DOo7dYElFmUlCDE=",
+  "Hash": "NK9NsJC/jNy9JKOWmvlh1rJXS2bd+k/4eeLz39hvfsE=",
   "Source": "Sudoku.UI",
   "BasePath": "_content/Sudoku.UI",
   "Mode": "Default",
@@ -9,10 +9,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\obj\\Debug\\net7.0\\jsmodules\\jsmodules.build.manifest.json",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\obj\\Debug\\net7.0\\jsmodules\\jsmodules.build.manifest.json",
       "SourceId": "Sudoku.UI",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\obj\\Debug\\net7.0\\jsmodules\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\obj\\Debug\\net7.0\\jsmodules\\",
       "BasePath": "_content/Sudoku.UI",
       "RelativePath": "Sudoku.UI.modules.json",
       "AssetKind": "Build",

@@ -24,3 +24,16 @@ D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\refint\ModuleDistributor.Logging.dll
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.pdb
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ref\ModuleDistributor.Logging.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\bin\Debug\net7.0\ModuleDistributor.Logging.deps.json
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\bin\Debug\net7.0\ModuleDistributor.Logging.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\bin\Debug\net7.0\ModuleDistributor.Logging.pdb
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.csproj.AssemblyReference.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.AssemblyInfoInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.AssemblyInfo.cs
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.csproj.CoreCompileInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.csproj.Fody.CopyLocal.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\refint\ModuleDistributor.Logging.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ModuleDistributor.Logging.pdb
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Logging\obj\Debug\net7.0\ref\ModuleDistributor.Logging.dll

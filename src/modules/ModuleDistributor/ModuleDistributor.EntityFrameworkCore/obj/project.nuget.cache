@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WmeqmIMqVcRgLhXExeicyS1zkLPt1ScM5wKFn0Xuytav0bjlhcbluuezXWfzngonEduTg/Y39z17Fr5peYbSlQ==",
+  "dgSpecHash": "Ry3LsKXVbYNIAxWtVF88Ltp+7QzCNRmVC5UPnpDrtmrqabHq16SWscdRAEt0dzyU4nXHtf/cIfpz+jeZD/tBcw==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "D:\\NuGet\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

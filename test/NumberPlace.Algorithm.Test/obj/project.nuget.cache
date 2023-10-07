@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z5mH5NwUmCxFb/Oet81CpxdtpVo+q9Trda6ocxbY3J9kjCiQyctIYZ/F8CjmtChK3/6WLWbSDqaV2supaHpAPg==",
+  "dgSpecHash": "wp8rdNaTYShgFrK8dxJpruZqFVEeJFbXC20BfgCWTCB+ggPd3IhP+aLghZ/MOG0FQvqJVuAC+k1+w/G6KfaCjg==",
   "success": true,
-  "projectFilePath": "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "D:\\NuGet\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",

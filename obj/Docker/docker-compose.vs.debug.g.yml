@@ -14,8 +14,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
     volumes:
-      - D:\aspdotnet\Sudoku\src\applications\Sudoku.Host:/app
-      - D:\aspdotnet\Sudoku:/src
+      - D:\dotnetexe\Sudoku-Dapr\src\applications\Sudoku.Host:/app
+      - D:\dotnetexe\Sudoku-Dapr:/src
       - C:\Users\0\vsdbg\vs2017u5:/remote_debugger:rw
       - D:\NuGet\packages:/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
@@ -47,8 +47,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
     volumes:
-      - D:\aspdotnet\Sudoku\src\microservices\SudokuFactory\SudokuFactory.API:/app
-      - D:\aspdotnet\Sudoku:/src
+      - D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuFactory\SudokuFactory.API:/app
+      - D:\dotnetexe\Sudoku-Dapr:/src
       - C:\Users\0\vsdbg\vs2017u5:/remote_debugger:rw
       - D:\NuGet\packages:/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
@@ -81,8 +81,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
     volumes:
-      - D:\aspdotnet\Sudoku\src\microservices\SudokuPredictor\SudokuPredictor.API:/app
-      - D:\aspdotnet\Sudoku:/src
+      - D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.API:/app
+      - D:\dotnetexe\Sudoku-Dapr:/src
       - C:\Users\0\vsdbg\vs2017u5:/remote_debugger:rw
       - D:\NuGet\packages:/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
@@ -115,8 +115,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
     volumes:
-      - D:\aspdotnet\Sudoku\src\microservices\SudokuRecord\SudokuRecord.API:/app
-      - D:\aspdotnet\Sudoku:/src
+      - D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuRecord\SudokuRecord.API:/app
+      - D:\dotnetexe\Sudoku-Dapr:/src
       - C:\Users\0\vsdbg\vs2017u5:/remote_debugger:rw
       - D:\NuGet\packages:/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
@@ -149,8 +149,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
     volumes:
-      - D:\aspdotnet\Sudoku\src\microservices\SudokuSubmitter\SudokuSubmitter.API:/app
-      - D:\aspdotnet\Sudoku:/src
+      - D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuSubmitter\SudokuSubmitter.API:/app
+      - D:\dotnetexe\Sudoku-Dapr:/src
       - C:\Users\0\vsdbg\vs2017u5:/remote_debugger:rw
       - D:\NuGet\packages:/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro

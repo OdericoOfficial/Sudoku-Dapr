@@ -9,3 +9,14 @@ D:\aspdotnet\Sudoku\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj
 D:\aspdotnet\Sudoku\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\refint\SudokuPredictor.Shared.dll
 D:\aspdotnet\Sudoku\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\SudokuPredictor.Shared.pdb
 D:\aspdotnet\Sudoku\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\ref\SudokuPredictor.Shared.dll
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\bin\Debug\net7.0\SudokuPredictor.Shared.deps.json
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\bin\Debug\net7.0\SudokuPredictor.Shared.dll
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\bin\Debug\net7.0\SudokuPredictor.Shared.pdb
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\SudokuPredictor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\SudokuPredictor.Shared.AssemblyInfoInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\SudokuPredictor.Shared.AssemblyInfo.cs
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\SudokuPredictor.Shared.csproj.CoreCompileInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\SudokuPredictor.Shared.dll
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\refint\SudokuPredictor.Shared.dll
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\SudokuPredictor.Shared.pdb
+D:\dotnetexe\Sudoku-Dapr\src\microservices\SudokuPredictor\SudokuPredictor.Shared\obj\Debug\net7.0\ref\SudokuPredictor.Shared.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GZImQQR+kxzL6Bho0IBfhVGBA+BSs/w6COmkp3+V8br5kePnU1oSZsVb3M1KZYMtDB7fRuXL2T9bnmH+kPmJoA==",
+  "dgSpecHash": "ndDnV0zKTxmVcSo+ocWFs24XoqK8fQd0CQr8wpWhw7DCXlzDCfG0RmVIXeyddFJrl/EsbDUM5DtoJHCC5q/VMA==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\Sudoku.Host.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\Sudoku.Host.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\aspnetcore.healthchecks.ui.client\\7.1.0\\aspnetcore.healthchecks.ui.client.7.1.0.nupkg.sha512",
     "D:\\NuGet\\packages\\aspnetcore.healthchecks.ui.core\\7.0.0\\aspnetcore.healthchecks.ui.core.7.0.0.nupkg.sha512",

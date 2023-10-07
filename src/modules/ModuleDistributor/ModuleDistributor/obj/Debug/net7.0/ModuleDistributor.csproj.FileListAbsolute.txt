@@ -21,3 +21,14 @@ D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\ne
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\refint\ModuleDistributor.dll
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ModuleDistributor.pdb
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ref\ModuleDistributor.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\bin\Debug\net7.0\ModuleDistributor.deps.json
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\bin\Debug\net7.0\ModuleDistributor.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\bin\Debug\net7.0\ModuleDistributor.pdb
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ModuleDistributor.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ModuleDistributor.AssemblyInfoInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ModuleDistributor.AssemblyInfo.cs
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ModuleDistributor.csproj.CoreCompileInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ModuleDistributor.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\refint\ModuleDistributor.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ModuleDistributor.pdb
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor\obj\Debug\net7.0\ref\ModuleDistributor.dll

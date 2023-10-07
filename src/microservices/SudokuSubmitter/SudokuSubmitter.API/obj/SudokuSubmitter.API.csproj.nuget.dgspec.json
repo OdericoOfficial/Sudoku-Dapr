@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\SudokuSubmitter.API.csproj": {}
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\SudokuSubmitter.API.csproj": {}
   },
   "projects": {
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
         "projectName": "SudokuFactory.Shared",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
         "projectName": "SudokuRecord.Domain.Shared",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,14 +124,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj",
         "projectName": "SudokuRecord.Domain",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -153,11 +153,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj"
               }
             }
           }
@@ -191,14 +191,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj",
         "projectName": "SudokuRecord.EntityFrameworkCore",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -220,14 +220,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain\\SudokuRecord.Domain.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj"
               }
             }
           }
@@ -277,14 +277,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\SudokuSubmitter.API.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\SudokuSubmitter.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\SudokuSubmitter.API.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\SudokuSubmitter.API.csproj",
         "projectName": "SudokuSubmitter.API",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\SudokuSubmitter.API.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\SudokuSubmitter.API.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -306,32 +306,32 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj"
               }
             }
           }
@@ -386,14 +386,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
         "projectName": "SudokuSubmitter.Shared",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -446,14 +446,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj",
         "projectName": "ModuleDistributor.Dapr",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -475,8 +475,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
               }
             }
           }
@@ -516,14 +516,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj",
         "projectName": "ModuleDistributor.EntityFrameworkCore",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -545,8 +545,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
               }
             }
           }
@@ -586,14 +586,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj",
         "projectName": "ModuleDistributor.HealthCheck.Dapr",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\ModuleDistributor.HealthCheck.Dapr.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck.Dapr\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -615,11 +615,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj"
               }
             }
           }
@@ -653,14 +653,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj",
         "projectName": "ModuleDistributor.HealthCheck",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\ModuleDistributor.HealthCheck.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.HealthCheck\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -682,8 +682,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
               }
             }
           }
@@ -723,14 +723,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj",
         "projectName": "ModuleDistributor.Logging",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\ModuleDistributor.Logging.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -793,14 +793,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj",
         "projectName": "ModuleDistributor.Repository.Abstractions",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -853,14 +853,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj",
         "projectName": "ModuleDistributor.Repository",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\ModuleDistributor.Repository.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -882,14 +882,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.EntityFrameworkCore\\ModuleDistributor.EntityFrameworkCore.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Repository.Abstractions\\ModuleDistributor.Repository.Abstractions.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
               }
             }
           }
@@ -923,14 +923,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj",
         "projectName": "ModuleDistributor.Serilog",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -952,8 +952,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
               }
             }
           }
@@ -1005,14 +1005,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj",
         "projectName": "ModuleDistributor.Swagger",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\ModuleDistributor.Swagger.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Swagger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1034,8 +1034,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj"
               }
             }
           }
@@ -1075,14 +1075,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj",
         "projectName": "ModuleDistributor",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\ModuleDistributor.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

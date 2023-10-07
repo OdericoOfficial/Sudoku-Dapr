@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj": {}
+    "D:\\dotnetexe\\Sudoku-Dapr\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj": {}
   },
   "projects": {
-    "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj",
         "projectName": "NumberPlace.Algorithm.Test",
-        "projectPath": "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\test\\NumberPlace.Algorithm.Test\\NumberPlace.Algorithm.Test.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\dotnetexe\\NumberPlace\\test\\NumberPlace.Algorithm.Test\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\test\\NumberPlace.Algorithm.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

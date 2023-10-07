@@ -96,6 +96,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuSubmitter.Shared", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.Host", "src\applications\Sudoku.Host\Sudoku.Host.csproj", "{1E75110A-F70B-4E28-940F-E80FD0FA4444}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPlace.Algorithm.Test", "test\NumberPlace.Algorithm.Test\NumberPlace.Algorithm.Test.csproj", "{EB79653B-9534-4C91-A19E-A1B713CC8857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -214,6 +216,10 @@ Global
 		{1E75110A-F70B-4E28-940F-E80FD0FA4444}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E75110A-F70B-4E28-940F-E80FD0FA4444}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E75110A-F70B-4E28-940F-E80FD0FA4444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB79653B-9534-4C91-A19E-A1B713CC8857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB79653B-9534-4C91-A19E-A1B713CC8857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB79653B-9534-4C91-A19E-A1B713CC8857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB79653B-9534-4C91-A19E-A1B713CC8857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -257,6 +263,7 @@ Global
 		{4FE0F283-CBB9-4858-ACF0-C3B6205E7FCD} = {C15CF1DB-A418-4F97-9F69-CDBA6B074D85}
 		{104A734D-6651-4E22-AB5B-DE2051909E4D} = {218175DA-696D-4A58-9CD3-58FDF5E78271}
 		{1E75110A-F70B-4E28-940F-E80FD0FA4444} = {3B2D840F-15E4-438C-B0B4-CC4FC257452B}
+		{EB79653B-9534-4C91-A19E-A1B713CC8857} = {C3A24274-C217-40C9-B731-F9D1B08379F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D3C7C56-38D7-4D78-A148-1EEC064CEB73}

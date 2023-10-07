@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFNcOI03v347hdiCAl4X0azOxfxTmFmMlbdX/6LJWJ0sHjlqCx9wjkLtIZwXB9jEocYfFSsOFXbITp86X4Ty1A==",
+  "dgSpecHash": "JMQZxot+lClt1zGqU0R9vLsHwJ5n/6ko3nQ8H9YN/OPqdgkcbjppWZggdJlB9SH/PcY+GfTm4X0VDCW2T7MGgQ==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\bemit\\1.1.1\\bemit.1.1.1.nupkg.sha512",
     "D:\\NuGet\\packages\\blazorcomponent\\1.0.4\\blazorcomponent.1.0.4.nupkg.sha512",

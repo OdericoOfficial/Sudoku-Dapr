@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "y9bksTvXSnleWZ7XYqGil2ohi8G+cc0rjRCLJZXBji0=",
+  "Hash": "UkbP3pN2QYY21cPj9FOLyC1pid0BSfB8H3ro3+mzk3c=",
   "Source": "Sudoku.Host",
   "BasePath": "_content/Sudoku.Host",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
       "Version": 2,
       "Source": "Sudoku.UI",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "Sudoku.Host\\wwwroot",
       "Source": "Sudoku.Host",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\obj\\Debug\\net7.0\\jsmodules\\jsmodules.build.manifest.json",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\obj\\Debug\\net7.0\\jsmodules\\jsmodules.build.manifest.json",
       "SourceId": "Sudoku.Host",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\obj\\Debug\\net7.0\\jsmodules\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\obj\\Debug\\net7.0\\jsmodules\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "Sudoku.Host.modules.json",
       "AssetKind": "Build",
@@ -46,10 +46,10 @@
       "OriginalItemSpec": "obj\\Debug\\net7.0\\jsmodules\\jsmodules.build.manifest.json"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -63,10 +63,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -97,10 +97,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -114,10 +114,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -148,10 +148,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -165,10 +165,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -182,10 +182,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -199,10 +199,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -216,10 +216,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -233,10 +233,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\site.css",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\site.css",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -250,10 +250,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\css\\typing.css",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\css\\typing.css",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "css/typing.css",
       "AssetKind": "All",
@@ -267,10 +267,10 @@
       "OriginalItemSpec": "wwwroot\\css\\typing.css"
     },
     {
-      "Identity": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\favicon.png",
+      "Identity": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\favicon.png",
       "SourceId": "Sudoku.Host",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.Host\\wwwroot\\",
+      "ContentRoot": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.Host\\wwwroot\\",
       "BasePath": "_content/Sudoku.Host",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

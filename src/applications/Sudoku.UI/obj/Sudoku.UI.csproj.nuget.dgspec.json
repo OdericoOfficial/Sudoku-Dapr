@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj": {}
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj": {}
   },
   "projects": {
-    "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
         "projectName": "Sudoku.UI",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\Sudoku.UI.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\applications\\Sudoku.UI\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\applications\\Sudoku.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj"
               },
-              "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
-                "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj"
+              "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
+                "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
         "projectName": "SudokuFactory.Shared",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\SudokuFactory.Shared.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuFactory\\SudokuFactory.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,14 +148,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
         "projectName": "SudokuRecord.Domain.Shared",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -208,14 +208,14 @@
         }
       }
     },
-    "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
+    "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
+        "projectUniqueName": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
         "projectName": "SudokuSubmitter.Shared",
-        "projectPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
+        "projectPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\SudokuSubmitter.Shared.csproj",
         "packagesPath": "D:\\NuGet\\packages",
-        "outputPath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\obj\\",
+        "outputPath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuSubmitter\\SudokuSubmitter.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

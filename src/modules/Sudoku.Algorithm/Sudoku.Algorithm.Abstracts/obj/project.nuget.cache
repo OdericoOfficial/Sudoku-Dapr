@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FkBnrle5QG+lHDPquSboBcWc7zdttq2rwXXuBQeFioHZJpJwD1IsmIuVGihHkp5aztXKDNXtDzmJs6MIF9XKHw==",
+  "dgSpecHash": "Lw/1S78SI/YQQ9pEOxVOrNE+pDfcOwut8iDrDhBZL12PIDmtShzqHdrwGAc4HUoPqO5DUZ8pcqspgh/qH5wK+g==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\modules\\Sudoku.Algorithm\\Sudoku.Algorithm.Abstracts\\Sudoku.Algorithm.Abstracts.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\Sudoku.Algorithm\\Sudoku.Algorithm.Abstracts\\Sudoku.Algorithm.Abstracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b91huyah7rBVXGRMPRgbhXw9TA93+Q353M9+ZZWyD5c3PK80L2lAri2CiPIEt7dVX5YEuUmQTHCNiJd8FYZYSA==",
+  "dgSpecHash": "wii+BpNunnGEW1aUL17QDPQOIDla5yNNzmJ49cBjdO6almeS5jFdwDxzRyTPbhUBHzij5zEkmPcacCU8sWGXoQ==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.Domain.Shared\\SudokuRecord.Domain.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

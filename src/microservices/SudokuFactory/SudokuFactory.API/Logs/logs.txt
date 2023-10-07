@@ -6508,3 +6508,670 @@
 2023-10-07 12:22:17.704 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
 2023-10-07 12:22:17.704 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 274.6818ms
 2023-10-07 12:22:17.703 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 229.9872ms
+2023-10-07 13:15:31.540 +00:00 [INF] Starting Host.
+2023-10-07 13:15:33.527 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 13:15:33.537 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 13:15:33.537 +00:00 [INF] Hosting environment: Development
+2023-10-07 13:15:33.537 +00:00 [INF] Content root path: /app
+2023-10-07 13:15:33.656 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json -
+2023-10-07 13:15:33.806 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json - - 404 0 - 150.3000ms
+2023-10-07 13:15:33.815 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json -
+2023-10-07 13:15:33.830 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json - - 404 0 - 14.7607ms
+2023-10-07 13:16:12.657 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:12.657 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:12.657 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:12.657 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:12.657 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:12.657 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:12.657 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:12.658 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:12.664 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:12.664 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:12.664 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:12.664 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:12.664 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:12.664 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:12.664 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:12.664 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:12.706 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:12.706 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:12.706 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:12.706 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:12.706 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:12.706 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:12.706 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:12.706 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:13.022 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:16:13.023 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.023 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.288 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 590.0078ms
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 590.0831ms
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 590.1348ms
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 590.1902ms
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 589.796ms
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 589.99ms
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 589.9957ms
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 273.4296ms
+2023-10-07 13:16:13.300 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 590.0332ms
+2023-10-07 13:16:13.301 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.301 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.301 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.301 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.301 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.301 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.301 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.302 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.302 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 281.3818ms
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 646.6995ms
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 647.0407ms
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 646.7080ms
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 646.7987ms
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 646.8052ms
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 646.6084ms
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 646.9605ms
+2023-10-07 13:16:13.304 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 646.7632ms
+2023-10-07 13:16:39.318 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.322 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.324 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.324 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.328 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.332 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.334 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.334 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.355 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.355 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.356 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.356 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.359 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.360 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.362 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.364 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.366 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.367 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.369 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.369 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.369 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.372 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.372 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.372 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.416 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:16:39.437 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.457 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:16:39.574 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.574 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.574 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.574 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.574 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.574 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.574 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.574 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.574 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 116.5626ms
+2023-10-07 13:16:39.574 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 216.1401ms
+2023-10-07 13:16:39.574 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 212.3298ms
+2023-10-07 13:16:39.574 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.574 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.574 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 207.7542ms
+2023-10-07 13:16:39.574 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.574 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 202.012ms
+2023-10-07 13:16:39.574 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.574 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.574 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 245.9968ms
+2023-10-07 13:16:39.574 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 215.8995ms
+2023-10-07 13:16:39.574 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 158.8599ms
+2023-10-07 13:16:39.574 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 210.4678ms
+2023-10-07 13:16:39.574 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.574 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 252.1922ms
+2023-10-07 13:16:39.574 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 218.8626ms
+2023-10-07 13:16:39.574 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 202.5419ms
+2023-10-07 13:16:39.574 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.574 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 256.5318ms
+2023-10-07 13:16:39.574 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 219.4028ms
+2023-10-07 13:16:39.575 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 240.6264ms
+2023-10-07 13:16:39.575 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.575 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 242.9289ms
+2023-10-07 13:16:39.575 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:16:39.575 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 205.4049ms
+2023-10-07 13:16:39.575 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:16:39.575 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 205.7860ms
+2023-10-07 13:17:07.092 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.092 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.092 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.122 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.122 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.122 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.124 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.125 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.125 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.146 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.146 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.146 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.188 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.188 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.230 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.231 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.231 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.231 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.252 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.252 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.253 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.275 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.297 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.298 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.361 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:17:07.424 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.426 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:17:07.598 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.598 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.598 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 505.9567ms
+2023-10-07 13:17:07.599 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.599 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 346.3558ms
+2023-10-07 13:17:07.599 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.599 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.599 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 508.3137ms
+2023-10-07 13:17:07.599 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 389.0605ms
+2023-10-07 13:17:07.620 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.620 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.621 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 194.4849ms
+2023-10-07 13:17:07.621 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 453.4468ms
+2023-10-07 13:17:07.621 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 367.7008ms
+2023-10-07 13:17:07.621 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.621 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.621 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.621 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 259.9980ms
+2023-10-07 13:17:07.621 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 498.2271ms
+2023-10-07 13:17:07.621 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 389.8351ms
+2023-10-07 13:17:07.621 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.621 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 453.6272ms
+2023-10-07 13:17:07.621 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.621 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 498.2524ms
+2023-10-07 13:17:07.621 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.643 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 454.9268ms
+2023-10-07 13:17:07.643 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.644 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 521.2019ms
+2023-10-07 13:17:07.647 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.647 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:17:07.647 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 415.4964ms
+2023-10-07 13:17:07.647 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 348.6588ms
+2023-10-07 13:17:07.647 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.647 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:17:07.647 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 373.3709ms
+2023-10-07 13:17:07.647 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 479.8100ms
+2023-10-07 13:19:16.215 +00:00 [INF] Starting Host.
+2023-10-07 13:19:17.963 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 13:19:17.968 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 13:19:17.969 +00:00 [INF] Hosting environment: Development
+2023-10-07 13:19:17.969 +00:00 [INF] Content root path: /app
+2023-10-07 13:19:47.148 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.148 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.148 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.148 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.148 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.148 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.148 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.148 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.269 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:19:47.338 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.338 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.338 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.338 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.338 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.338 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.338 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.338 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.379 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.379 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.379 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.379 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.379 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.379 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.379 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.379 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.713 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.713 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:19:47.966 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.966 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.966 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.966 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.966 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.967 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.967 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.967 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.967 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:19:47.982 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 599.5382ms
+2023-10-07 13:19:47.982 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 599.2884ms
+2023-10-07 13:19:47.982 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 599.5381ms
+2023-10-07 13:19:47.982 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 599.481ms
+2023-10-07 13:19:47.982 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 599.5958ms
+2023-10-07 13:19:47.982 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 599.6402ms
+2023-10-07 13:19:47.982 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 599.4801ms
+2023-10-07 13:19:47.983 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 599.6617ms
+2023-10-07 13:19:47.983 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 266.1927ms
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.983 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:19:47.991 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 846.1324ms
+2023-10-07 13:19:47.991 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 846.0055ms
+2023-10-07 13:19:47.991 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 846.1747ms
+2023-10-07 13:19:47.991 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 846.1832ms
+2023-10-07 13:19:47.991 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 846.1207ms
+2023-10-07 13:19:47.991 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 846.1383ms
+2023-10-07 13:19:47.992 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 720.1950ms
+2023-10-07 13:19:47.992 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 846.0792ms
+2023-10-07 13:19:47.992 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 846.0700ms
+2023-10-07 13:22:54.836 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetCondition application/json;+charset=utf-8 47
+2023-10-07 13:22:54.836 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetConditionAsync (SudokuFactory.API)'
+2023-10-07 13:22:54.840 +00:00 [INF] Route matched with {action = "GetCondition", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetConditionAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:22:54.891 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:22:54.892 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetConditionAsync (SudokuFactory.API) in 51.6804ms
+2023-10-07 13:22:54.892 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetConditionAsync (SudokuFactory.API)'
+2023-10-07 13:22:54.892 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetCondition application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 55.6791ms
+2023-10-07 13:22:54.896 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:22:54.896 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:22:54.900 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:22:54.931 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:22:54.931 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 31.0455ms
+2023-10-07 13:22:54.931 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:22:54.932 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 35.6824ms
+2023-10-07 13:25:53.846 +00:00 [INF] Starting Host.
+2023-10-07 13:25:55.637 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 13:25:55.646 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 13:25:55.647 +00:00 [INF] Hosting environment: Development
+2023-10-07 13:25:55.647 +00:00 [INF] Content root path: /app
+2023-10-07 13:25:55.751 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json -
+2023-10-07 13:25:55.862 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json - - 404 0 - 114.0779ms
+2023-10-07 13:25:55.869 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json -
+2023-10-07 13:25:55.874 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json - - 404 0 - 4.3203ms
+2023-10-07 13:26:09.948 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:09.948 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:09.948 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:09.948 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:09.948 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:09.948 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:09.948 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:09.949 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:09.961 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:09.961 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:09.961 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:09.961 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:09.961 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:09.961 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:09.961 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:09.961 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.042 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.042 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.042 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.042 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.042 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.042 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.042 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.043 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.543 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:10.543 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.543 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:10.831 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.831 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.831 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.831 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.831 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.832 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.832 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.832 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.832 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:10.862 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 310.1162ms
+2023-10-07 13:26:10.862 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 811.7879ms
+2023-10-07 13:26:10.863 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.863 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.870 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 814.5173ms
+2023-10-07 13:26:10.870 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.871 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 923.2958ms
+2023-10-07 13:26:10.872 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 924.5002ms
+2023-10-07 13:26:10.874 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 330.0049ms
+2023-10-07 13:26:10.874 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 811.937ms
+2023-10-07 13:26:10.875 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.876 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 928.6436ms
+2023-10-07 13:26:10.876 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 814.3198ms
+2023-10-07 13:26:10.876 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.877 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 929.8955ms
+2023-10-07 13:26:10.877 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 814.4548ms
+2023-10-07 13:26:10.877 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 811.4536ms
+2023-10-07 13:26:10.877 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.877 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.877 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 929.7171ms
+2023-10-07 13:26:10.878 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 930.3023ms
+2023-10-07 13:26:10.878 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 811.8238ms
+2023-10-07 13:26:10.878 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 811.9424ms
+2023-10-07 13:26:10.878 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.883 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:10.884 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 936.0620ms
+2023-10-07 13:26:10.884 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 931.6514ms
+2023-10-07 13:26:17.589 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.592 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.593 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.594 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.594 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.615 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.616 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.616 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.616 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.616 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.616 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.616 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.616 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.637 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.637 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.637 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.637 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.616 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.658 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.658 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.658 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.658 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.658 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.658 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.766 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:17.808 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.829 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:17.995 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:17.996 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 337.4159ms
+2023-10-07 13:26:17.996 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.996 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 380.0502ms
+2023-10-07 13:26:17.997 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:17.997 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:17.997 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:17.997 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:17.997 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:17.997 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:17.997 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 339.1603ms
+2023-10-07 13:26:17.997 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 381.548ms
+2023-10-07 13:26:17.997 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 339.2077ms
+2023-10-07 13:26:17.997 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 147.5872ms
+2023-10-07 13:26:17.997 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.997 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.997 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.997 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 339.2974ms
+2023-10-07 13:26:17.997 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.997 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:17.997 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 381.9304ms
+2023-10-07 13:26:17.997 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 381.5986ms
+2023-10-07 13:26:17.997 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 360.7667ms
+2023-10-07 13:26:17.997 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 360.7846ms
+2023-10-07 13:26:17.998 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 231.5710ms
+2023-10-07 13:26:17.998 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 404.3441ms
+2023-10-07 13:26:17.999 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:18.000 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 411.0238ms
+2023-10-07 13:26:18.001 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:18.001 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 385.709ms
+2023-10-07 13:26:18.001 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:18.001 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 407.3554ms
+2023-10-07 13:26:18.002 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:18.002 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 344.5128ms
+2023-10-07 13:26:18.002 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:18.002 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 386.4080ms
+2023-10-07 13:26:20.791 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.791 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.793 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.793 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.796 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.796 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.796 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:20.798 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:20.803 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.803 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.803 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:20.805 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:20.814 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.815 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.815 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:20.889 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.890 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.892 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:20.896 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.897 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.897 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.897 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:20.897 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.918 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:20.918 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:20.919 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:20.919 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:21.042 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.042 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 237.0538ms
+2023-10-07 13:26:21.042 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.042 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 246.3535ms
+2023-10-07 13:26:21.043 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.043 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.043 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.043 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.043 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 228.3451ms
+2023-10-07 13:26:21.043 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 150.9695ms
+2023-10-07 13:26:21.043 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 123.0982ms
+2023-10-07 13:26:21.043 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 245.2729ms
+2023-10-07 13:26:21.043 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.043 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.043 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 229.1229ms
+2023-10-07 13:26:21.043 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.043 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 174.2144ms
+2023-10-07 13:26:21.043 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 249.9938ms
+2023-10-07 13:26:21.043 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.043 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 146.7231ms
+2023-10-07 13:26:21.044 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.044 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 125.0205ms
+2023-10-07 13:26:21.044 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.044 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.044 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 125.4131ms
+2023-10-07 13:26:21.044 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.044 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:21.044 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 146.1754ms
+2023-10-07 13:26:21.044 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 240.8823ms
+2023-10-07 13:26:21.044 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.044 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 147.7877ms
+2023-10-07 13:26:21.044 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 247.4628ms
+2023-10-07 13:26:21.044 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.044 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:21.044 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 241.4330ms
+2023-10-07 13:26:21.044 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 253.4850ms
+2023-10-07 13:26:26.303 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.303 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.303 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.346 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.346 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.346 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.346 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.346 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.346 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.346 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.388 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.388 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.389 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.389 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.389 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.389 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.389 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.389 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.390 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.390 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.390 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.411 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.411 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.412 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.454 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:26.455 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.475 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:26.692 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.692 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.692 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.693 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 280.9546ms
+2023-10-07 13:26:26.693 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 389.2983ms
+2023-10-07 13:26:26.693 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.693 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.693 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 303.9212ms
+2023-10-07 13:26:26.693 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 390.1446ms
+2023-10-07 13:26:26.693 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 346.5720ms
+2023-10-07 13:26:26.693 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.693 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 346.6445ms
+2023-10-07 13:26:26.714 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.715 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 325.5408ms
+2023-10-07 13:26:26.715 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.716 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 369.5718ms
+2023-10-07 13:26:26.738 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.738 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.739 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 263.2241ms
+2023-10-07 13:26:26.759 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.759 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 305.6063ms
+2023-10-07 13:26:26.760 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.760 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.760 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 348.3948ms
+2023-10-07 13:26:26.760 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.760 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 413.8076ms
+2023-10-07 13:26:26.760 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 370.1383ms
+2023-10-07 13:26:26.760 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.759 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 370.0942ms
+2023-10-07 13:26:26.781 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.781 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 435.0675ms
+2023-10-07 13:26:26.781 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 435.0629ms
+2023-10-07 13:26:26.782 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:26.782 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 392.9965ms
+2023-10-07 13:26:26.782 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:26.782 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 436.0930ms
+2023-10-07 13:26:29.228 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.228 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.229 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.253 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.274 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.274 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.274 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.274 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.274 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.274 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.274 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.295 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.295 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.295 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.295 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.295 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.295 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.295 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.295 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.316 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.274 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.317 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.317 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.317 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.334 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47
+2023-10-07 13:26:29.335 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.356 +00:00 [INF] Route matched with {action = "GetStandardFinal", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStandardFinalAsync(SudokuFactory.Shared.MatGuid, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:29.417 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.418 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 188.8213ms
+2023-10-07 13:26:29.418 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.442 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 213.5274ms
+2023-10-07 13:26:29.443 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.443 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 147.4725ms
+2023-10-07 13:26:29.443 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.465 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 170.1895ms
+2023-10-07 13:26:29.468 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.489 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 132.8665ms
+2023-10-07 13:26:29.490 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.490 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.490 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.490 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 195.6076ms
+2023-10-07 13:26:29.490 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 195.6377ms
+2023-10-07 13:26:29.490 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.490 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.490 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 156.3313ms
+2023-10-07 13:26:29.490 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 238.1601ms
+2023-10-07 13:26:29.535 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 260.9875ms
+2023-10-07 13:26:29.535 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.537 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.538 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.538 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:29.538 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 221.062ms
+2023-10-07 13:26:29.538 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.538 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 220.9271ms
+2023-10-07 13:26:29.538 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 242.9895ms
+2023-10-07 13:26:29.538 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.538 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.538 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 263.8870ms
+2023-10-07 13:26:29.538 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 263.7692ms
+2023-10-07 13:26:29.538 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 263.9072ms
+2023-10-07 13:26:29.559 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API) in 263.6524ms
+2023-10-07 13:26:29.559 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetStandardFinalAsync (SudokuFactory.API)'
+2023-10-07 13:26:29.559 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetStandardFinal application/json;+charset=utf-8 47 - 200 - application/json;+charset=utf-8 263.9533ms
+2023-10-07 13:26:36.895 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.895 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.895 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:36.917 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.917 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.917 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.917 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.917 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.917 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.918 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:36.918 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.918 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.918 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.918 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.918 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:36.918 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:36.918 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:36.918 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.918 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:36.938 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.939 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.939 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.939 +00:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16
+2023-10-07 13:26:36.939 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:36.939 +00:00 [INF] Executing endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:36.939 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:36.939 +00:00 [INF] Route matched with {action = "GetSudoku", controller = "SudokuFactory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSudokuAsync(SudokuFactory.Shared.MatInit, Microsoft.Extensions.Logging.ILogger`1[SudokuFactory.API.Controllers.SudokuFactoryController]) on controller SudokuFactory.API.Controllers.SudokuFactoryController (SudokuFactory.API).
+2023-10-07 13:26:37.154 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.154 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.155 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 215.6039ms
+2023-10-07 13:26:37.155 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 259.3197ms
+2023-10-07 13:26:37.155 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.155 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.155 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 260.1876ms
+2023-10-07 13:26:37.176 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.176 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 258.1164ms
+2023-10-07 13:26:37.176 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.176 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.176 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 236.6107ms
+2023-10-07 13:26:37.176 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.176 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 258.2909ms
+2023-10-07 13:26:37.176 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 236.7807ms
+2023-10-07 13:26:37.180 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 263.1255ms
+2023-10-07 13:26:37.182 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.182 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.182 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 242.5488ms
+2023-10-07 13:26:37.182 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 264.1542ms
+2023-10-07 13:26:37.182 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.182 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.182 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 264.8996ms
+2023-10-07 13:26:37.182 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 263.8425ms
+2023-10-07 13:26:37.210 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.211 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.212 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 293.7619ms
+2023-10-07 13:26:37.212 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 293.8168ms
+2023-10-07 13:26:37.212 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.212 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.212 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 293.9562ms
+2023-10-07 13:26:37.212 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 294.7076ms
+2023-10-07 13:26:37.213 +00:00 [INF] Executing OkObjectResult, writing value of type 'SudokuFactory.Shared.MatResult'.
+2023-10-07 13:26:37.213 +00:00 [INF] Executed action SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API) in 274.03ms
+2023-10-07 13:26:37.213 +00:00 [INF] Executed endpoint 'SudokuFactory.API.Controllers.SudokuFactoryController.GetSudokuAsync (SudokuFactory.API)'
+2023-10-07 13:26:37.213 +00:00 [INF] Request finished HTTP/1.1 POST http://127.0.0.1:80/SudokuFactory/GetSudoku application/json;+charset=utf-8 16 - 200 - application/json;+charset=utf-8 295.6508ms

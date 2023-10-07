@@ -21,3 +21,14 @@ D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository.A
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\refint\ModuleDistributor.Repository.Abstractions.dll
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ModuleDistributor.Repository.Abstractions.pdb
 D:\aspdotnet\Sudoku\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ref\ModuleDistributor.Repository.Abstractions.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\bin\Debug\net7.0\ModuleDistributor.Repository.Abstractions.deps.json
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\bin\Debug\net7.0\ModuleDistributor.Repository.Abstractions.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\bin\Debug\net7.0\ModuleDistributor.Repository.Abstractions.pdb
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ModuleDistributor.Repository.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ModuleDistributor.Repository.Abstractions.AssemblyInfoInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ModuleDistributor.Repository.Abstractions.AssemblyInfo.cs
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ModuleDistributor.Repository.Abstractions.csproj.CoreCompileInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ModuleDistributor.Repository.Abstractions.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\refint\ModuleDistributor.Repository.Abstractions.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ModuleDistributor.Repository.Abstractions.pdb
+D:\dotnetexe\Sudoku-Dapr\src\modules\ModuleDistributor\ModuleDistributor.Repository.Abstractions\obj\Debug\net7.0\ref\ModuleDistributor.Repository.Abstractions.dll

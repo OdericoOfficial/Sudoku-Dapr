@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NumberPlace.Algorithm.Test
-build_property.ProjectDir = D:\dotnetexe\NumberPlace\test\NumberPlace.Algorithm.Test\
+build_property.ProjectDir = D:\dotnetexe\Sudoku-Dapr\test\NumberPlace.Algorithm.Test\

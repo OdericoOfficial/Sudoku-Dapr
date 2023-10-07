@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g1PgocwUN5fCqwQyb/U2Iv2iiHXE4AlpVIZ2Vqkl0TIi1lJWHjpfOgMratQLvJGmdRTjP9URH+vqXmZWRl/4MQ==",
+  "dgSpecHash": "tJ5yKmyGHG/kpd7nKD0xi5d7WWpQBi5wWwT9s5EDPdSv36ywp/uqPX2NKLIRKdzEdQ9CmzE9ouaLeXhPXZ8LEw==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Dapr\\ModuleDistributor.Dapr.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\dapr.aspnetcore\\1.11.0\\dapr.aspnetcore.1.11.0.nupkg.sha512",
     "D:\\NuGet\\packages\\dapr.client\\1.11.0\\dapr.client.1.11.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7qsTtILqk5ZNdujkttjUocnl0MnwdkOMAMRFaXpCVBB79izVBvwvJ4y9UVp1SsJofJ4Yu1AQ0JqY7KXzeYZu4g==",
+  "dgSpecHash": "I8O1VYGPFz69U7tudHqyln0G3d9brrJuQcf8uIXMRohu5rT1vpB0taK2z+WrPgQsqcr9pxmz3OwF9NvaOX+QRQ==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\ModuleDistributor\\ModuleDistributor.Serilog\\ModuleDistributor.Serilog.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\fody\\6.2.5\\fody.6.2.5.nupkg.sha512",
     "D:\\NuGet\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

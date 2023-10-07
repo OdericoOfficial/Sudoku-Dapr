@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kzu22TnnhLOFuRlvP6dUF5gVNUs424AYbi4DnFtTC0zVMf7AVvpCxesnV6j+31JtQNgjWAvkMZ5Tut10+rsLvw==",
+  "dgSpecHash": "aI0YES8fwjzoSTynITBJCzy45W3+4y46okXiIiBvOZ89BEwshK50YP9KwK1m4IsBN9clnqZgemVslS8PbMyAPA==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\modules\\Sudoku.Algorithm\\Sudoku.Algorithm\\Sudoku.Algorithm.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\modules\\Sudoku.Algorithm\\Sudoku.Algorithm\\Sudoku.Algorithm.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -18726,3 +18726,242 @@ System.FormatException: The input string '' was not in a correct format.
 2023-10-07 12:22:26.271 +00:00 [INF] Executing endpoint 'Blazor disconnect'
 2023-10-07 12:22:26.293 +00:00 [INF] Executed endpoint 'Blazor disconnect'
 2023-10-07 12:22:26.293 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundary1X02VzEPPpBAvN1p 359 - 200 0 - 22.9323ms
+2023-10-07 13:15:31.550 +00:00 [INF] Starting Host.
+2023-10-07 13:15:34.686 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-10-07 13:15:34.688 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-10-07 13:15:34.849 +00:00 [INF] Creating key {f51de831-cd8e-4989-9847-c180714af8b2} with creation date 2023-10-07 13:15:34Z, activation date 2023-10-07 13:15:34Z, and expiration date 2024-01-05 13:15:34Z.
+2023-10-07 13:15:34.868 +00:00 [WRN] No XML encryptor configured. Key {f51de831-cd8e-4989-9847-c180714af8b2} may be persisted to storage in unencrypted form.
+2023-10-07 13:15:34.875 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-f51de831-cd8e-4989-9847-c180714af8b2.xml'.
+2023-10-07 13:15:34.947 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 13:15:34.948 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 13:15:34.949 +00:00 [INF] Hosting environment: Development
+2023-10-07 13:15:34.949 +00:00 [INF] Content root path: /app
+2023-10-07 13:15:35.051 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json -
+2023-10-07 13:15:35.098 +00:00 [INF] Executing endpoint '/_Host'
+2023-10-07 13:15:35.118 +00:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-10-07 13:15:35.135 +00:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-10-07 13:15:35.135 +00:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-10-07 13:15:35.368 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json -
+2023-10-07 13:15:35.371 +00:00 [INF] Executing endpoint '/_Host'
+2023-10-07 13:15:35.372 +00:00 [INF] Executed page /_Host in 247.2476ms
+2023-10-07 13:15:35.372 +00:00 [INF] Executed endpoint '/_Host'
+2023-10-07 13:15:35.373 +00:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-10-07 13:15:35.377 +00:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-10-07 13:15:35.378 +00:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-10-07 13:15:35.384 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json - - 200 - text/html;+charset=utf-8 336.4271ms
+2023-10-07 13:15:35.397 +00:00 [INF] Executed page /_Host in 23.6994ms
+2023-10-07 13:15:35.397 +00:00 [INF] Executed endpoint '/_Host'
+2023-10-07 13:15:35.400 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json - - 200 - text/html;+charset=utf-8 31.5607ms
+2023-10-07 13:15:36.602 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - -
+2023-10-07 13:15:36.613 +00:00 [INF] Executing endpoint '/_Host'
+2023-10-07 13:15:36.614 +00:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-10-07 13:15:36.615 +00:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-10-07 13:15:36.616 +00:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-10-07 13:15:36.635 +00:00 [INF] Executed page /_Host in 20.9385ms
+2023-10-07 13:15:36.635 +00:00 [INF] Executed endpoint '/_Host'
+2023-10-07 13:15:36.635 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - - - 200 - text/html;+charset=utf-8 33.0573ms
+2023-10-07 13:15:36.700 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/css/masa-blazor.min.css - -
+2023-10-07 13:15:36.708 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/bootstrap/bootstrap.min.css - -
+2023-10-07 13:15:36.716 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/typing.css - -
+2023-10-07 13:15:36.716 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/site.css - -
+2023-10-07 13:15:36.851 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_framework/blazor.server.js - -
+2023-10-07 13:15:36.851 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/Sudoku.Host.styles.css - -
+2023-10-07 13:15:36.859 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/Sudoku.Host.styles.css - - - 404 0 - 28.9630ms
+2023-10-07 13:15:36.899 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/blazor-component.js - -
+2023-10-07 13:15:36.902 +00:00 [INF] The file /css/typing.css was not modified
+2023-10-07 13:15:36.903 +00:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-10-07 13:15:36.905 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/bootstrap/bootstrap.min.css - - - 304 - text/css 197.0113ms
+2023-10-07 13:15:36.905 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/typing.css - - - 304 - text/css 189.8293ms
+2023-10-07 13:15:36.927 +00:00 [INF] The file /css/site.css was not modified
+2023-10-07 13:15:36.927 +00:00 [INF] The file /_content/Masa.Blazor/css/masa-blazor.min.css was not modified
+2023-10-07 13:15:36.927 +00:00 [INF] The file /_content/BlazorComponent/js/blazor-component.js was not modified
+2023-10-07 13:15:36.927 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/blazor-component.js - - - 304 - text/javascript 27.8343ms
+2023-10-07 13:15:36.927 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/css/masa-blazor.min.css - - - 304 - text/css 227.2405ms
+2023-10-07 13:15:36.927 +00:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-10-07 13:15:36.928 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/site.css - - - 304 - text/css 211.8892ms
+2023-10-07 13:15:36.929 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_framework/blazor.server.js - - - 304 - text/javascript 98.1973ms
+2023-10-07 13:15:36.939 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-10-07 13:15:36.949 +00:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-10-07 13:15:36.950 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 10.3676ms
+2023-10-07 13:15:36.965 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_blazor/initializers - -
+2023-10-07 13:15:36.966 +00:00 [INF] Executing endpoint 'Blazor initializers'
+2023-10-07 13:15:36.972 +00:00 [INF] Executed endpoint 'Blazor initializers'
+2023-10-07 13:15:36.972 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_blazor/initializers - - - 200 - application/json;+charset=utf-8 6.3518ms
+2023-10-07 13:15:37.103 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/js/Masa.Blazor.lib.module.js - -
+2023-10-07 13:15:37.111 +00:00 [INF] The file /_content/Masa.Blazor/js/Masa.Blazor.lib.module.js was not modified
+2023-10-07 13:15:37.111 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/js/Masa.Blazor.lib.module.js - - - 304 - text/javascript 7.4403ms
+2023-10-07 13:15:37.133 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/_blazor/negotiate?negotiateVersion=1 - 0
+2023-10-07 13:15:37.134 +00:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-10-07 13:15:37.147 +00:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-10-07 13:15:37.148 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 14.7344ms
+2023-10-07 13:15:37.798 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_blazor?id=IUOYcvWds6vOHRk6efgcsA - -
+2023-10-07 13:15:37.798 +00:00 [INF] Executing endpoint '/_blazor'
+2023-10-07 13:15:38.743 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/outside-click.js - -
+2023-10-07 13:15:38.749 +00:00 [INF] The file /_content/BlazorComponent/js/outside-click.js was not modified
+2023-10-07 13:15:38.750 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/outside-click.js - - - 304 - text/javascript 6.5861ms
+2023-10-07 13:15:39.127 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/transition.js - -
+2023-10-07 13:15:39.127 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/activatable.js - -
+2023-10-07 13:15:39.133 +00:00 [INF] The file /_content/BlazorComponent/js/activatable.js was not modified
+2023-10-07 13:15:39.133 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/activatable.js - - - 304 - text/javascript 6.5618ms
+2023-10-07 13:15:39.138 +00:00 [INF] The file /_content/BlazorComponent/js/transition.js was not modified
+2023-10-07 13:15:39.139 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/transition.js - - - 304 - text/javascript 12.1406ms
+2023-10-07 13:16:13.847 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/input.js - -
+2023-10-07 13:16:13.935 +00:00 [INF] The file /_content/BlazorComponent/js/input.js was not modified
+2023-10-07 13:16:13.936 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/input.js - - - 304 - text/javascript 88.9161ms
+2023-10-07 13:17:15.921 +00:00 [INF] Executed endpoint '/_blazor'
+2023-10-07 13:17:15.923 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_blazor?id=IUOYcvWds6vOHRk6efgcsA - - - 101 - - 98125.1977ms
+2023-10-07 13:17:15.955 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryNoRL3APTUEDIOF6l 359
+2023-10-07 13:17:15.955 +00:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-10-07 13:17:15.972 +00:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-10-07 13:17:15.972 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryNoRL3APTUEDIOF6l 359 - 200 0 - 17.2720ms
+2023-10-07 13:19:16.218 +00:00 [INF] Starting Host.
+2023-10-07 13:19:18.550 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-10-07 13:19:18.552 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-10-07 13:19:18.761 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 13:19:18.763 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 13:19:18.763 +00:00 [INF] Hosting environment: Development
+2023-10-07 13:19:18.763 +00:00 [INF] Content root path: /app
+2023-10-07 13:19:23.990 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - -
+2023-10-07 13:19:24.044 +00:00 [INF] Executing endpoint '/_Host'
+2023-10-07 13:19:24.057 +00:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-10-07 13:19:24.071 +00:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-10-07 13:19:24.071 +00:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-10-07 13:19:24.274 +00:00 [INF] Executed page /_Host in 211.3733ms
+2023-10-07 13:19:24.274 +00:00 [INF] Executed endpoint '/_Host'
+2023-10-07 13:19:24.287 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - - - 200 - text/html;+charset=utf-8 308.4909ms
+2023-10-07 13:19:24.388 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/site.css - -
+2023-10-07 13:19:24.388 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/bootstrap/bootstrap.min.css - -
+2023-10-07 13:19:24.390 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/css/masa-blazor.min.css - -
+2023-10-07 13:19:24.413 +00:00 [INF] The file /css/site.css was not modified
+2023-10-07 13:19:24.413 +00:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-10-07 13:19:24.413 +00:00 [INF] The file /_content/Masa.Blazor/css/masa-blazor.min.css was not modified
+2023-10-07 13:19:24.438 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/css/masa-blazor.min.css - - - 304 - text/css 47.7496ms
+2023-10-07 13:19:24.438 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/site.css - - - 304 - text/css 50.2121ms
+2023-10-07 13:19:24.440 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/bootstrap/bootstrap.min.css - - - 304 - text/css 50.3766ms
+2023-10-07 13:19:24.440 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/typing.css - -
+2023-10-07 13:19:24.440 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/Sudoku.Host.styles.css - -
+2023-10-07 13:19:24.445 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-10-07 13:19:24.445 +00:00 [INF] The file /css/typing.css was not modified
+2023-10-07 13:19:24.446 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/typing.css - - - 304 - text/css 5.9193ms
+2023-10-07 13:19:24.450 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/Sudoku.Host.styles.css - - - 404 0 - 10.3799ms
+2023-10-07 13:19:24.453 +00:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-10-07 13:19:24.453 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 8.5160ms
+2023-10-07 13:19:24.463 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_framework/blazor.server.js - -
+2023-10-07 13:19:24.463 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/blazor-component.js - -
+2023-10-07 13:19:24.463 +00:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-10-07 13:19:24.463 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_framework/blazor.server.js - - - 304 - text/javascript 0.6904ms
+2023-10-07 13:19:24.469 +00:00 [INF] The file /_content/BlazorComponent/js/blazor-component.js was not modified
+2023-10-07 13:19:24.469 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/blazor-component.js - - - 304 - text/javascript 6.4079ms
+2023-10-07 13:19:24.479 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_blazor/initializers - -
+2023-10-07 13:19:24.482 +00:00 [INF] Executing endpoint 'Blazor initializers'
+2023-10-07 13:19:24.485 +00:00 [INF] Executed endpoint 'Blazor initializers'
+2023-10-07 13:19:24.486 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_blazor/initializers - - - 200 - application/json;+charset=utf-8 6.2451ms
+2023-10-07 13:19:24.610 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/js/Masa.Blazor.lib.module.js - -
+2023-10-07 13:19:24.617 +00:00 [INF] The file /_content/Masa.Blazor/js/Masa.Blazor.lib.module.js was not modified
+2023-10-07 13:19:24.617 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/js/Masa.Blazor.lib.module.js - - - 304 - text/javascript 6.5318ms
+2023-10-07 13:19:24.629 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/_blazor/negotiate?negotiateVersion=1 - 0
+2023-10-07 13:19:24.630 +00:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-10-07 13:19:24.641 +00:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-10-07 13:19:24.642 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 12.8152ms
+2023-10-07 13:19:24.663 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_blazor?id=1RLYUlxQakofKAuX5qH3kw - -
+2023-10-07 13:19:24.664 +00:00 [INF] Executing endpoint '/_blazor'
+2023-10-07 13:19:25.469 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/outside-click.js - -
+2023-10-07 13:19:25.477 +00:00 [INF] The file /_content/BlazorComponent/js/outside-click.js was not modified
+2023-10-07 13:19:25.477 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/outside-click.js - - - 304 - text/javascript 8.3818ms
+2023-10-07 13:19:25.507 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/activatable.js - -
+2023-10-07 13:19:25.549 +00:00 [INF] The file /_content/BlazorComponent/js/activatable.js was not modified
+2023-10-07 13:19:25.549 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/activatable.js - - - 304 - text/javascript 42.1869ms
+2023-10-07 13:19:25.610 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/transition.js - -
+2023-10-07 13:19:25.636 +00:00 [INF] The file /_content/BlazorComponent/js/transition.js was not modified
+2023-10-07 13:19:25.637 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/transition.js - - - 304 - text/javascript 27.7172ms
+2023-10-07 13:19:48.488 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/input.js - -
+2023-10-07 13:19:48.514 +00:00 [INF] The file /_content/BlazorComponent/js/input.js was not modified
+2023-10-07 13:19:48.514 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/input.js - - - 304 - text/javascript 26.7185ms
+2023-10-07 13:25:53.963 +00:00 [INF] Starting Host.
+2023-10-07 13:25:56.666 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2023-10-07 13:25:56.669 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-10-07 13:25:56.833 +00:00 [INF] Creating key {adba809c-3556-474a-8f9c-aab69a82b255} with creation date 2023-10-07 13:25:56Z, activation date 2023-10-07 13:25:56Z, and expiration date 2024-01-05 13:25:56Z.
+2023-10-07 13:25:56.852 +00:00 [WRN] No XML encryptor configured. Key {adba809c-3556-474a-8f9c-aab69a82b255} may be persisted to storage in unencrypted form.
+2023-10-07 13:25:56.858 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-adba809c-3556-474a-8f9c-aab69a82b255.xml'.
+2023-10-07 13:25:56.928 +00:00 [INF] Now listening on: http://0.0.0.0:80
+2023-10-07 13:25:56.929 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-07 13:25:56.930 +00:00 [INF] Hosting environment: Development
+2023-10-07 13:25:56.930 +00:00 [INF] Content root path: /app
+2023-10-07 13:25:57.020 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json -
+2023-10-07 13:25:57.062 +00:00 [INF] Executing endpoint '/_Host'
+2023-10-07 13:25:57.081 +00:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-10-07 13:25:57.099 +00:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-10-07 13:25:57.099 +00:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-10-07 13:25:57.412 +00:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json -
+2023-10-07 13:25:57.413 +00:00 [INF] Executed page /_Host in 304.0834ms
+2023-10-07 13:25:57.414 +00:00 [INF] Executed endpoint '/_Host'
+2023-10-07 13:25:57.415 +00:00 [INF] Executing endpoint '/_Host'
+2023-10-07 13:25:57.417 +00:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-10-07 13:25:57.421 +00:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-10-07 13:25:57.421 +00:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-10-07 13:25:57.431 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/config application/json - - 200 - text/html;+charset=utf-8 412.4101ms
+2023-10-07 13:25:57.445 +00:00 [INF] Executed page /_Host in 27.3738ms
+2023-10-07 13:25:57.446 +00:00 [INF] Executed endpoint '/_Host'
+2023-10-07 13:25:57.447 +00:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:80/dapr/subscribe application/json - - 200 - text/html;+charset=utf-8 35.2454ms
+2023-10-07 13:26:04.280 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/ - -
+2023-10-07 13:26:04.283 +00:00 [INF] Executing endpoint '/_Host'
+2023-10-07 13:26:04.283 +00:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-10-07 13:26:04.288 +00:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-10-07 13:26:04.290 +00:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-10-07 13:26:04.306 +00:00 [INF] Executed page /_Host in 23.1236ms
+2023-10-07 13:26:04.307 +00:00 [INF] Executed endpoint '/_Host'
+2023-10-07 13:26:04.313 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/ - - - 200 - text/html;+charset=utf-8 32.6401ms
+2023-10-07 13:26:04.373 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/css/masa-blazor.min.css - -
+2023-10-07 13:26:04.382 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/typing.css - -
+2023-10-07 13:26:04.427 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/Sudoku.Host.styles.css - -
+2023-10-07 13:26:04.433 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/bootstrap/bootstrap.min.css - -
+2023-10-07 13:26:04.439 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/site.css - -
+2023-10-07 13:26:04.441 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_framework/blazor.server.js - -
+2023-10-07 13:26:04.448 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/Sudoku.Host.styles.css - - - 404 0 - 19.0667ms
+2023-10-07 13:26:04.453 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/blazor-component.js - -
+2023-10-07 13:26:04.472 +00:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-10-07 13:26:04.472 +00:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-10-07 13:26:04.472 +00:00 [INF] The file /css/typing.css was not modified
+2023-10-07 13:26:04.472 +00:00 [INF] The file /_content/BlazorComponent/js/blazor-component.js was not modified
+2023-10-07 13:26:04.472 +00:00 [INF] The file /css/site.css was not modified
+2023-10-07 13:26:04.472 +00:00 [INF] The file /_content/Masa.Blazor/css/masa-blazor.min.css was not modified
+2023-10-07 13:26:04.475 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_framework/blazor.server.js - - - 304 - text/javascript 33.8074ms
+2023-10-07 13:26:04.475 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/site.css - - - 304 - text/css 36.2267ms
+2023-10-07 13:26:04.475 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/css/masa-blazor.min.css - - - 304 - text/css 102.1816ms
+2023-10-07 13:26:04.475 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/blazor-component.js - - - 304 - text/javascript 22.1107ms
+2023-10-07 13:26:04.475 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/bootstrap/bootstrap.min.css - - - 304 - text/css 42.8228ms
+2023-10-07 13:26:04.475 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/typing.css - - - 304 - text/css 93.2961ms
+2023-10-07 13:26:04.513 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-10-07 13:26:04.522 +00:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-10-07 13:26:04.522 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 9.0814ms
+2023-10-07 13:26:04.532 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_blazor/initializers - -
+2023-10-07 13:26:04.534 +00:00 [INF] Executing endpoint 'Blazor initializers'
+2023-10-07 13:26:04.540 +00:00 [INF] Executed endpoint 'Blazor initializers'
+2023-10-07 13:26:04.540 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_blazor/initializers - - - 200 - application/json;+charset=utf-8 7.4752ms
+2023-10-07 13:26:04.698 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/js/Masa.Blazor.lib.module.js - -
+2023-10-07 13:26:04.717 +00:00 [INF] The file /_content/Masa.Blazor/js/Masa.Blazor.lib.module.js was not modified
+2023-10-07 13:26:04.717 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/Masa.Blazor/js/Masa.Blazor.lib.module.js - - - 304 - text/javascript 19.1080ms
+2023-10-07 13:26:04.735 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/_blazor/negotiate?negotiateVersion=1 - 0
+2023-10-07 13:26:04.737 +00:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-10-07 13:26:04.748 +00:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-10-07 13:26:04.749 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 13.1587ms
+2023-10-07 13:26:04.770 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_blazor?id=dA01B_xPAWnBcHiXGWB66A - -
+2023-10-07 13:26:04.771 +00:00 [INF] Executing endpoint '/_blazor'
+2023-10-07 13:26:05.692 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/outside-click.js - -
+2023-10-07 13:26:05.701 +00:00 [INF] The file /_content/BlazorComponent/js/outside-click.js was not modified
+2023-10-07 13:26:05.701 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/outside-click.js - - - 304 - text/javascript 9.8020ms
+2023-10-07 13:26:05.763 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/activatable.js - -
+2023-10-07 13:26:05.774 +00:00 [INF] The file /_content/BlazorComponent/js/activatable.js was not modified
+2023-10-07 13:26:05.775 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/activatable.js - - - 304 - text/javascript 11.7349ms
+2023-10-07 13:26:05.813 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/transition.js - -
+2023-10-07 13:26:05.835 +00:00 [INF] The file /_content/BlazorComponent/js/transition.js was not modified
+2023-10-07 13:26:05.836 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/transition.js - - - 304 - text/javascript 22.9038ms
+2023-10-07 13:26:11.748 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/input.js - -
+2023-10-07 13:26:11.791 +00:00 [INF] The file /_content/BlazorComponent/js/input.js was not modified
+2023-10-07 13:26:11.791 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_content/BlazorComponent/js/input.js - - - 304 - text/javascript 43.7476ms
+2023-10-07 13:27:10.736 +00:00 [INF] Executed endpoint '/_blazor'
+2023-10-07 13:27:10.738 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5105/_blazor?id=dA01B_xPAWnBcHiXGWB66A - - - 101 - - 65965.7849ms
+2023-10-07 13:27:10.750 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:5105/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryVPPoP9PDtkavl9NM 359
+2023-10-07 13:27:10.750 +00:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-10-07 13:27:10.776 +00:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-10-07 13:27:10.776 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:5105/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryVPPoP9PDtkavl9NM 359 - 200 0 - 25.9292ms

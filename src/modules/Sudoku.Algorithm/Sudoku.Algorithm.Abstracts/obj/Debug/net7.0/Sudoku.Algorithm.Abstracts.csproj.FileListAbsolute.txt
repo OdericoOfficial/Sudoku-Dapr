@@ -9,3 +9,14 @@ D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\
 D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\refint\Sudoku.Algorithm.Abstracts.dll
 D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\Sudoku.Algorithm.Abstracts.pdb
 D:\aspdotnet\Sudoku\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\ref\Sudoku.Algorithm.Abstracts.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\bin\Debug\net7.0\Sudoku.Algorithm.Abstracts.deps.json
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\bin\Debug\net7.0\Sudoku.Algorithm.Abstracts.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\bin\Debug\net7.0\Sudoku.Algorithm.Abstracts.pdb
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\Sudoku.Algorithm.Abstracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\Sudoku.Algorithm.Abstracts.AssemblyInfoInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\Sudoku.Algorithm.Abstracts.AssemblyInfo.cs
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\Sudoku.Algorithm.Abstracts.csproj.CoreCompileInputs.cache
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\Sudoku.Algorithm.Abstracts.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\refint\Sudoku.Algorithm.Abstracts.dll
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\Sudoku.Algorithm.Abstracts.pdb
+D:\dotnetexe\Sudoku-Dapr\src\modules\Sudoku.Algorithm\Sudoku.Algorithm.Abstracts\obj\Debug\net7.0\ref\Sudoku.Algorithm.Abstracts.dll

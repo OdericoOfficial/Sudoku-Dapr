@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SBkqUtVN7hvhPI1Vv8Og1rwoOmf2fZr8Tvr6Rai4JcZWD/UGjPdOmpWRqQSC6wjtnpKehBWseH/KRpa20ZvOxA==",
+  "dgSpecHash": "XAcfpJKol4GHntXHiOaHuiFpBAgmEcNRkvVibn4hs+0XJnLg/iPsvaI3FIZ32juCN5dx2iHJ4dgaY4tGB5tlRA==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuRecord\\SudokuRecord.EntityFrameworkCore\\SudokuRecord.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [
     "D:\\NuGet\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "D:\\NuGet\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

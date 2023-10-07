@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GC+vFRN/ExTHBMhO1oOV/h+x1PBe5wlo1NLLbaAaxMsETLlJKlUNKwARVPTqEdDu95Dutxucd9i9PELRFY4raA==",
+  "dgSpecHash": "pejVL6dVlwQcttntUdJ7y0vZMxKGlh+u9niVAXeFKQmvfCKNAm9IVBwuxXKSpKi7YsBZQlsDu2JRgcirTPLENg==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet\\Sudoku\\src\\microservices\\SudokuPredictor\\SudokuPredictor.Shared\\SudokuPredictor.Shared.csproj",
+  "projectFilePath": "D:\\dotnetexe\\Sudoku-Dapr\\src\\microservices\\SudokuPredictor\\SudokuPredictor.Shared\\SudokuPredictor.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
